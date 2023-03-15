@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Create_CSV_Files - Home</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../assets/_mkdocstrings.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Create_CSV_Files";
+        var mkdocs_page_input_path = "textile_classification\\data_setters\\create_csv_files.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../index.html" class="icon icon-home"> Home
+        </a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../index.html">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Textile Classification</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../train.html">Train</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../test.html">Test</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../predict.html">Predict</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Data_Setters</a>
+    <ul class="current">
+                <li class="toctree-l2 current"><a class="reference internal current" href="create_csv_files.html">Create_CSV_Files</a>
+    <ul class="current">
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="data_set_creator.html">Data_Set_Creator</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Models</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../models/pretrained_densenet.html">DenseNet</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../models/pretrained_efficientnet.html">EfficientNet</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../models/pretrained_resnext.html">ResNeXt</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Utils</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../utils/data_set_visualization.html">Data_Set_Visualization</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../utils/metric_calculation_visualization.html">Metric_Calculation_Visualization</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../utils/miscellaneous.html">miscellaneous</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../utils/model_tracking.html">model_tracking</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Home</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../index.html" class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Textile Classification &raquo;</li>
+          <li>Data_Setters &raquo;</li>
+      <li>Create_CSV_Files</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/srahmatian/texture_classification/edit/master/docs/textile_classification/data_setters/create_csv_files.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <div class="doc doc-object doc-module">
+
+
+<a id="textile_classification.data_setters.create_csv_files"></a>
+  <div class="doc doc-contents first">
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="textile_classification.data_setters.create_csv_files.change_images_path_in_train_val_test_csv_files" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">change_images_path_in_train_val_test_csv_files</span><span class="p">(</span><span class="n">csv_dir</span><span class="o">=</span><span class="n">DATA_DIR</span><span class="p">)</span></code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>The csv files contain absolute pathes for image files.
+Those are not going to be correct on other computer, so
+we need to change them if we are going to use the csv files have been created on another computer</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>csv_dir</code></td>
+          <td>
+                <code><span title="typing.Union">Union</span>[str, <span title="pathlib.Path">Path</span>]</code>
+          </td>
+          <td><p>the direcoty you are seeing the csc files.
+                                  the new csv files are going to be save there and replace the old ones.</p></td>
+          <td>
+                <code>DATA_DIR</code>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>textile_classification\data_setters\create_csv_files.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">101</span>
+<span class="normal">102</span>
+<span class="normal">103</span>
+<span class="normal">104</span>
+<span class="normal">105</span>
+<span class="normal">106</span>
+<span class="normal">107</span>
+<span class="normal">108</span>
+<span class="normal">109</span>
+<span class="normal">110</span>
+<span class="normal">111</span>
+<span class="normal">112</span>
+<span class="normal">113</span>
+<span class="normal">114</span>
+<span class="normal">115</span>
+<span class="normal">116</span>
+<span class="normal">117</span>
+<span class="normal">118</span>
+<span class="normal">119</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">change_images_path_in_train_val_test_csv_files</span><span class="p">(</span><span class="n">csv_dir</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Path</span><span class="p">]</span> <span class="o">=</span> <span class="n">DATA_DIR</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    The csv files contain absolute pathes for image files.</span>
+<span class="sd">    Those are not going to be correct on other computer, so</span>
+<span class="sd">    we need to change them if we are going to use the csv files have been created on another computer</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        csv_dir (Union[str, Path], optional): the direcoty you are seeing the csc files.</span>
+<span class="sd">                                              the new csv files are going to be save there and replace the old ones.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">for</span> <span class="n">csv_name</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;train.csv&quot;</span><span class="p">,</span> <span class="s2">&quot;validation.csv&quot;</span><span class="p">,</span> <span class="s2">&quot;test.csv&quot;</span><span class="p">]:</span>
+        <span class="n">csv_path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">csv_dir</span><span class="p">)</span><span class="o">.</span><span class="n">joinpath</span><span class="p">(</span><span class="n">csv_name</span><span class="p">)</span>
+        <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_path</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">idx</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)):</span>
+            <span class="n">old_path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">idx</span><span class="p">,</span> <span class="s2">&quot;image_path&quot;</span><span class="p">])</span>
+            <span class="n">new_path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">csv_dir</span><span class="p">)</span><span class="o">.</span><span class="n">joinpath</span><span class="p">(</span><span class="n">old_path</span><span class="o">.</span><span class="n">parent</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">old_path</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+            <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">idx</span><span class="p">,</span> <span class="s2">&quot;image_path&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">new_path</span>
+        <span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">csv_path</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="textile_classification.data_setters.create_csv_files.create_csv_file_for_prediction_phase" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">create_csv_file_for_prediction_phase</span><span class="p">(</span><span class="n">images_dir</span><span class="p">,</span> <span class="n">extensions</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;png&#39;</span><span class="p">,</span> <span class="s1">&#39;jpg&#39;</span><span class="p">,</span> <span class="s1">&#39;jpeg&#39;</span><span class="p">,</span> <span class="s1">&#39;jpe&#39;</span><span class="p">,</span> <span class="s1">&#39;jfif&#39;</span><span class="p">])</span></code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>The full path directory for images you want to predict their label.</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>images_dir</code></td>
+          <td>
+                <code><span title="typing.Union">Union</span>[str, <span title="pathlib.Path">Path</span>]</code>
+          </td>
+          <td><p>The full path directory for images you want to predict their label.</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>extensions</code></td>
+          <td>
+                <code><span title="typing.List">List</span>[str]</code>
+          </td>
+          <td><p>These kind of images will be found and put into the csv file</p></td>
+          <td>
+                <code>[&#39;png&#39;, &#39;jpg&#39;, &#39;jpeg&#39;, &#39;jpe&#39;, &#39;jfif&#39;]</code>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>textile_classification\data_setters\create_csv_files.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">77</span>
+<span class="normal">78</span>
+<span class="normal">79</span>
+<span class="normal">80</span>
+<span class="normal">81</span>
+<span class="normal">82</span>
+<span class="normal">83</span>
+<span class="normal">84</span>
+<span class="normal">85</span>
+<span class="normal">86</span>
+<span class="normal">87</span>
+<span class="normal">88</span>
+<span class="normal">89</span>
+<span class="normal">90</span>
+<span class="normal">91</span>
+<span class="normal">92</span>
+<span class="normal">93</span>
+<span class="normal">94</span>
+<span class="normal">95</span>
+<span class="normal">96</span>
+<span class="normal">97</span>
+<span class="normal">98</span>
+<span class="normal">99</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">create_csv_file_for_prediction_phase</span><span class="p">(</span>
+        <span class="n">images_dir</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Path</span><span class="p">],</span>
+        <span class="n">extensions</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;png&quot;</span><span class="p">,</span> <span class="s2">&quot;jpg&quot;</span><span class="p">,</span> <span class="s2">&quot;jpeg&quot;</span><span class="p">,</span> <span class="s2">&quot;jpe&quot;</span><span class="p">,</span> <span class="s2">&quot;jfif&quot;</span><span class="p">]):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    The full path directory for images you want to predict their label.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        images_dir (Union[str, Path]): The full path directory for images you want to predict their label.</span>
+<span class="sd">        extensions (List[str], optional): These kind of images will be found and put into the csv file</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">image_paths</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">df_dict</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;image_path&quot;</span><span class="p">:</span> <span class="p">[],</span> <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="p">[]}</span>
+    <span class="k">for</span> <span class="n">each_extension</span> <span class="ow">in</span> <span class="n">extensions</span><span class="p">:</span>
+        <span class="n">image_paths</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Path</span><span class="p">(</span><span class="n">images_dir</span><span class="p">)</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;*.</span><span class="si">{</span><span class="n">each_extension</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)])</span>
+
+    <span class="k">for</span> <span class="n">each_image_path</span> <span class="ow">in</span> <span class="n">image_paths</span><span class="p">:</span>
+        <span class="n">df_dict</span><span class="p">[</span><span class="s2">&quot;image_path&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">each_image_path</span><span class="p">)</span>
+        <span class="n">df_dict</span><span class="p">[</span><span class="s2">&quot;label&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;unknown&quot;</span><span class="p">)</span>
+
+    <span class="c1"># create csv file for each data_frame</span>
+    <span class="n">df_pd</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">df_dict</span><span class="p">)</span>
+    <span class="n">csv_path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">images_dir</span><span class="p">)</span><span class="o">.</span><span class="n">joinpath</span><span class="p">(</span><span class="s2">&quot;prediction.csv&quot;</span><span class="p">)</span>
+    <span class="n">df_pd</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">csv_path</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="textile_classification.data_setters.create_csv_files.create_csv_files_containing_both_true_and_predicted_labels" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">create_csv_files_containing_both_true_and_predicted_labels</span><span class="p">(</span><span class="n">csv_name</span><span class="p">,</span> <span class="n">image_pathes</span><span class="p">,</span> <span class="n">labels_grund_truth</span><span class="p">,</span> <span class="n">labels_predicted</span><span class="p">,</span> <span class="n">threshold</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">csv_dir</span><span class="o">=</span><span class="n">BASE_DIR</span><span class="p">)</span></code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>After classfication use this function to create a csv file.
+It shows you which image_path has been classified correctly, and which one is not.
+It helps you to have a better understanding which kind of images the model is wrongly classifying.
+You can use this knowledge to find a way like data augmentation to increase the model's performance.</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>csv_name</code></td>
+          <td>
+                <code>str</code>
+          </td>
+          <td><p>It must be train, validation or test</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>image_pathes</code></td>
+          <td>
+                <code><span title="typing.List">List</span>[str]</code>
+          </td>
+          <td><p><em>description</em></p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>labels_grund_truth</code></td>
+          <td>
+                <code><span title="typing.List">List</span>[float]</code>
+          </td>
+          <td><p><em>description</em></p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>labels_predicted</code></td>
+          <td>
+                <code><span title="typing.List">List</span>[float]</code>
+          </td>
+          <td><p>it must be in probability format</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>threshold</code></td>
+          <td>
+                <code>float</code>
+          </td>
+          <td><p>It should be between zero and one.
+                         if the probability of the prediced label is more than threshold, 
+                         the image is considered as valid image, otherwise it is invalid.</p></td>
+          <td>
+                <code>0.5</code>
+          </td>
+        </tr>
+        <tr>
+          <td><code>csv_dir</code></td>
+          <td>
+                <code><span title="typing.Union">Union</span>[str, <span title="pathlib.Path">Path</span>]</code>
+          </td>
+          <td><p>the directroy you want to create the csv file</p></td>
+          <td>
+                <code>BASE_DIR</code>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>textile_classification\data_setters\create_csv_files.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">121</span>
+<span class="normal">122</span>
+<span class="normal">123</span>
+<span class="normal">124</span>
+<span class="normal">125</span>
+<span class="normal">126</span>
+<span class="normal">127</span>
+<span class="normal">128</span>
+<span class="normal">129</span>
+<span class="normal">130</span>
+<span class="normal">131</span>
+<span class="normal">132</span>
+<span class="normal">133</span>
+<span class="normal">134</span>
+<span class="normal">135</span>
+<span class="normal">136</span>
+<span class="normal">137</span>
+<span class="normal">138</span>
+<span class="normal">139</span>
+<span class="normal">140</span>
+<span class="normal">141</span>
+<span class="normal">142</span>
+<span class="normal">143</span>
+<span class="normal">144</span>
+<span class="normal">145</span>
+<span class="normal">146</span>
+<span class="normal">147</span>
+<span class="normal">148</span>
+<span class="normal">149</span>
+<span class="normal">150</span>
+<span class="normal">151</span>
+<span class="normal">152</span>
+<span class="normal">153</span>
+<span class="normal">154</span>
+<span class="normal">155</span>
+<span class="normal">156</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">create_csv_files_containing_both_true_and_predicted_labels</span><span class="p">(</span><span class="n">csv_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> 
+                                                               <span class="n">image_pathes</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span>
+                                                               <span class="n">labels_grund_truth</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">float</span><span class="p">],</span>
+                                                               <span class="n">labels_predicted</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">float</span><span class="p">],</span>
+                                                               <span class="n">threshold</span><span class="p">:</span> <span class="nb">float</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span>
+                                                               <span class="n">csv_dir</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Path</span><span class="p">]</span><span class="o">=</span><span class="n">BASE_DIR</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    After classfication use this function to create a csv file.</span>
+<span class="sd">    It shows you which image_path has been classified correctly, and which one is not.</span>
+<span class="sd">    It helps you to have a better understanding which kind of images the model is wrongly classifying.</span>
+<span class="sd">    You can use this knowledge to find a way like data augmentation to increase the model&#39;s performance.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        csv_name (str): It must be train, validation or test</span>
+<span class="sd">        image_pathes (List[str]): _description_</span>
+<span class="sd">        labels_grund_truth (List[float]): _description_</span>
+<span class="sd">        labels_predicted (List[float]): it must be in probability format</span>
+<span class="sd">        threshold (float, optional): It should be between zero and one.</span>
+<span class="sd">                                     if the probability of the prediced label is more than threshold, </span>
+<span class="sd">                                     the image is considered as valid image, otherwise it is invalid.</span>
+<span class="sd">        csv_dir (Union[str, Path], optional): the directroy you want to create the csv file</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">assert</span> <span class="p">(</span><span class="n">csv_name</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;train.csv&quot;</span><span class="p">,</span> <span class="s2">&quot;validation.csv&quot;</span><span class="p">,</span> <span class="s2">&quot;test.csv&quot;</span><span class="p">]),</span> <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+        <span class="sa">f</span><span class="s2">&quot;csv_name(</span><span class="si">{</span><span class="n">csv_name</span><span class="si">}</span><span class="s2">) must be train.csv, validation.csv or test.csv&quot;</span><span class="p">)</span>
+    <span class="k">assert</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">image_pathes</span><span class="p">)</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">labels_grund_truth</span><span class="p">)),</span> <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+        <span class="s2">&quot;image_pathes and labels_grund_truth must have the same length&quot;</span><span class="p">)</span>
+    <span class="k">assert</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">labels_predicted</span><span class="p">)</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">labels_grund_truth</span><span class="p">)),</span> <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+        <span class="s2">&quot;labels_predicted and labels_grund_truth must have the same length&quot;</span><span class="p">)</span>
+
+    <span class="n">df_dict</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+    <span class="n">df_dict</span><span class="p">[</span><span class="s2">&quot;image_path&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">image_pathes</span>
+    <span class="n">df_dict</span><span class="p">[</span><span class="s2">&quot;label_grnd_truth&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;valid&quot;</span> <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="k">else</span> <span class="s2">&quot;invalid&quot;</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">labels_grund_truth</span><span class="p">]</span>
+    <span class="n">df_dict</span><span class="p">[</span><span class="s2">&quot;label_predicted&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;valid&quot;</span> <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&gt;=</span> <span class="n">threshold</span><span class="p">)</span> <span class="k">else</span> <span class="s2">&quot;invalid&quot;</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">labels_predicted</span><span class="p">]</span>
+    <span class="n">df_pd</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">df_dict</span><span class="p">)</span>
+    <span class="n">csv_path</span> <span class="o">=</span> <span class="n">csv_dir</span><span class="o">.</span><span class="n">joinpath</span><span class="p">(</span><span class="n">csv_name</span><span class="p">)</span>
+    <span class="n">df_pd</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">csv_path</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="textile_classification.data_setters.create_csv_files.create_csv_files_for_train_val_test_phases" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">create_csv_files_for_train_val_test_phases</span><span class="p">(</span><span class="n">images_parent_dir</span><span class="o">=</span><span class="n">DATA_DIR</span><span class="p">,</span> <span class="n">extensions</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;png&#39;</span><span class="p">,</span> <span class="s1">&#39;jpg&#39;</span><span class="p">,</span> <span class="s1">&#39;jpeg&#39;</span><span class="p">,</span> <span class="s1">&#39;jpe&#39;</span><span class="p">,</span> <span class="s1">&#39;jfif&#39;</span><span class="p">],</span> <span class="n">portion_train</span><span class="o">=</span><span class="mf">0.8</span><span class="p">,</span> <span class="n">portion_val</span><span class="o">=</span><span class="mf">0.15</span><span class="p">,</span> <span class="n">csv_dir</span><span class="o">=</span><span class="n">DATA_DIR</span><span class="p">)</span></code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>This function search in these two directories (data/valid, data/nonvalid) to find images and their label, 
+and divide them into train, val and test data by creating a csv file for each of them.
+We will need these csv files to create training, validation and testing dataset in the future. 
+Note: portion_train + portion_val must be less than or equal to one.</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>images_parent_dir</code></td>
+          <td>
+                <code><span title="typing.Union">Union</span>[str, <span title="pathlib.Path">Path</span>]</code>
+          </td>
+          <td><p>the direcory you can see these folders (valid and invalid).</p></td>
+          <td>
+                <code>DATA_DIR</code>
+          </td>
+        </tr>
+        <tr>
+          <td><code>extensions</code></td>
+          <td>
+                <code><span title="typing.List">List</span>[str]</code>
+          </td>
+          <td><p>The availabe extensions for the image files.</p></td>
+          <td>
+                <code>[&#39;png&#39;, &#39;jpg&#39;, &#39;jpeg&#39;, &#39;jpe&#39;, &#39;jfif&#39;]</code>
+          </td>
+        </tr>
+        <tr>
+          <td><code>portion_train</code></td>
+          <td>
+                <code>float</code>
+          </td>
+          <td><p>The portion of number of trainind data to number of whole data.</p></td>
+          <td>
+                <code>0.8</code>
+          </td>
+        </tr>
+        <tr>
+          <td><code>portion_val</code></td>
+          <td>
+                <code>float</code>
+          </td>
+          <td><p>The portion of number of validation data to number of whole data.</p></td>
+          <td>
+                <code>0.15</code>
+          </td>
+        </tr>
+        <tr>
+          <td><code>csv_dir</code></td>
+          <td>
+                <code><span title="typing.Union">Union</span>[str, <span title="pathlib.Path">Path</span>]</code>
+          </td>
+          <td><p>the directory you want to save csv_files.</p></td>
+          <td>
+                <code>DATA_DIR</code>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>textile_classification\data_setters\create_csv_files.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span>
+<span class="normal">48</span>
+<span class="normal">49</span>
+<span class="normal">50</span>
+<span class="normal">51</span>
+<span class="normal">52</span>
+<span class="normal">53</span>
+<span class="normal">54</span>
+<span class="normal">55</span>
+<span class="normal">56</span>
+<span class="normal">57</span>
+<span class="normal">58</span>
+<span class="normal">59</span>
+<span class="normal">60</span>
+<span class="normal">61</span>
+<span class="normal">62</span>
+<span class="normal">63</span>
+<span class="normal">64</span>
+<span class="normal">65</span>
+<span class="normal">66</span>
+<span class="normal">67</span>
+<span class="normal">68</span>
+<span class="normal">69</span>
+<span class="normal">70</span>
+<span class="normal">71</span>
+<span class="normal">72</span>
+<span class="normal">73</span>
+<span class="normal">74</span>
+<span class="normal">75</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">create_csv_files_for_train_val_test_phases</span><span class="p">(</span>
+        <span class="n">images_parent_dir</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Path</span><span class="p">]</span> <span class="o">=</span> <span class="n">DATA_DIR</span><span class="p">,</span>
+        <span class="n">extensions</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;png&quot;</span><span class="p">,</span> <span class="s2">&quot;jpg&quot;</span><span class="p">,</span> <span class="s2">&quot;jpeg&quot;</span><span class="p">,</span> <span class="s2">&quot;jpe&quot;</span><span class="p">,</span> <span class="s2">&quot;jfif&quot;</span><span class="p">],</span>
+        <span class="n">portion_train</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">0.8</span><span class="p">,</span> <span class="n">portion_val</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">0.15</span><span class="p">,</span>
+        <span class="n">csv_dir</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Path</span><span class="p">]</span> <span class="o">=</span> <span class="n">DATA_DIR</span>
+        <span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    This function search in these two directories (data/valid, data/nonvalid) to find images and their label, </span>
+<span class="sd">    and divide them into train, val and test data by creating a csv file for each of them.</span>
+<span class="sd">    We will need these csv files to create training, validation and testing dataset in the future. </span>
+<span class="sd">    Note: portion_train + portion_val must be less than or equal to one.</span>
+
+
+<span class="sd">    Args:</span>
+<span class="sd">        images_parent_dir (Union[str, Path], optional): the direcory you can see these folders (valid and invalid).</span>
+<span class="sd">        extensions (List[str], optional): The availabe extensions for the image files.</span>
+<span class="sd">        portion_train (float, optional): The portion of number of trainind data to number of whole data.</span>
+<span class="sd">        portion_val (float, optional): The portion of number of validation data to number of whole data.</span>
+<span class="sd">        csv_dir (Union[str, Path], optional): the directory you want to save csv_files.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># make sure you are passing correct values for input arguments</span>
+    <span class="c1"># the size of training data must be bigger than validation data</span>
+    <span class="k">assert</span> <span class="p">(</span><span class="mf">0.7</span> <span class="o">&lt;=</span> <span class="n">portion_train</span> <span class="o">&lt;</span> <span class="mf">1.0</span><span class="p">),</span> <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+             <span class="s2">&quot;training data has not accpetable portion of the whole data&quot;</span><span class="p">)</span>
+
+    <span class="k">assert</span> <span class="p">(</span><span class="mf">0.0</span> <span class="o">&lt;=</span> <span class="n">portion_val</span> <span class="o">&lt;=</span> <span class="mf">0.3</span><span class="p">),</span> <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+            <span class="s2">&quot;validation data has not accpetable portion of the whole data&quot;</span><span class="p">)</span>
+
+    <span class="k">assert</span> <span class="p">((</span><span class="n">portion_train</span> <span class="o">+</span> <span class="n">portion_val</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="mf">1.0</span><span class="p">),</span> <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+            <span class="s2">&quot;the number of training and validation data must not bigger than the whole data&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Search for all image files for each label and divide them into train, val and test . </span>
+    <span class="n">df_dict_train</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;image_path&quot;</span><span class="p">:</span> <span class="p">[],</span> <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="p">[]}</span>
+    <span class="n">df_dict_val</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;image_path&quot;</span><span class="p">:</span> <span class="p">[],</span> <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="p">[]}</span>
+    <span class="n">df_dict_test</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;image_path&quot;</span><span class="p">:</span> <span class="p">[],</span> <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="p">[]}</span>
+    <span class="k">for</span> <span class="n">label</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;valid&quot;</span><span class="p">,</span> <span class="s2">&quot;invalid&quot;</span><span class="p">]:</span>
+        <span class="n">images_sub_dir</span> <span class="o">=</span> <span class="n">images_parent_dir</span><span class="o">.</span><span class="n">joinpath</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>
+        <span class="n">image_paths</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">each_extension</span> <span class="ow">in</span> <span class="n">extensions</span><span class="p">:</span>
+            <span class="n">image_paths</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">Path</span><span class="p">(</span><span class="n">images_sub_dir</span><span class="p">)</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;*.</span><span class="si">{</span><span class="n">each_extension</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)])</span>
+
+        <span class="n">num_images</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">image_paths</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">each_image_path</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">image_paths</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">math</span><span class="o">.</span><span class="n">floor</span><span class="p">(</span><span class="n">portion_train</span> <span class="o">*</span> <span class="n">num_images</span><span class="p">):</span>
+                <span class="n">df_dict_train</span><span class="p">[</span><span class="s2">&quot;image_path&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">each_image_path</span><span class="p">)</span>
+                <span class="n">df_dict_train</span><span class="p">[</span><span class="s2">&quot;label&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">math</span><span class="o">.</span><span class="n">floor</span><span class="p">((</span><span class="n">portion_train</span> <span class="o">+</span> <span class="n">portion_val</span><span class="p">)</span> <span class="o">*</span> <span class="n">num_images</span><span class="p">):</span>
+                <span class="n">df_dict_val</span><span class="p">[</span><span class="s2">&quot;image_path&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">each_image_path</span><span class="p">)</span>
+                <span class="n">df_dict_val</span><span class="p">[</span><span class="s2">&quot;label&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">df_dict_test</span><span class="p">[</span><span class="s2">&quot;image_path&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">each_image_path</span><span class="p">)</span>
+                <span class="n">df_dict_test</span><span class="p">[</span><span class="s2">&quot;label&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>
+
+    <span class="c1"># create csv file for each data_frame</span>
+    <span class="n">df_pd_train</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">df_dict_train</span><span class="p">)</span>
+    <span class="n">csv_path_train</span> <span class="o">=</span> <span class="n">csv_dir</span><span class="o">.</span><span class="n">joinpath</span><span class="p">(</span><span class="s2">&quot;train.csv&quot;</span><span class="p">)</span>
+    <span class="n">df_pd_train</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">csv_path_train</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+    <span class="n">df_pd_val</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">df_dict_val</span><span class="p">)</span>
+    <span class="n">csv_path_val</span> <span class="o">=</span> <span class="n">csv_dir</span><span class="o">.</span><span class="n">joinpath</span><span class="p">(</span><span class="s2">&quot;validation.csv&quot;</span><span class="p">)</span>
+    <span class="n">df_pd_val</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">csv_path_val</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+    <span class="n">df_pd_test</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">df_dict_test</span><span class="p">)</span>
+    <span class="n">csv_path_test</span> <span class="o">=</span> <span class="n">csv_dir</span><span class="o">.</span><span class="n">joinpath</span><span class="p">(</span><span class="s2">&quot;test.csv&quot;</span><span class="p">)</span>
+    <span class="n">df_pd_test</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">csv_path_test</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+</div>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../predict.html" class="btn btn-neutral float-left" title="Predict"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="data_set_creator.html" class="btn btn-neutral float-right" title="Data_Set_Creator">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/srahmatian/texture_classification" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../predict.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="data_set_creator.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

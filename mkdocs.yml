@@ -1,0 +1,26 @@
+site_name: Home
+repo_url: https://github.com/srahmatian/texture_classification
+nav:
+  - Home: index.md
+  - Textile Classification:
+    - Train: textile_classification/train.md
+    - Test: textile_classification/test.md
+    - Predict: textile_classification/predict.md
+    - Data_Setters:
+      - Create_CSV_Files: textile_classification/data_setters/create_csv_files.md
+      - Data_Set_Creator: textile_classification/data_setters/data_set_creator.md
+    - Models:
+      - DenseNet: textile_classification/models/pretrained_densenet.md
+      - EfficientNet: textile_classification/models/pretrained_efficientnet.md
+      - ResNeXt: textile_classification/models/pretrained_resnext.md
+    - Utils:
+      - Data_Set_Visualization: textile_classification/utils/data_set_visualization.md
+      - Metric_Calculation_Visualization: textile_classification/utils/metric_calculation_visualization.md
+      - miscellaneous: textile_classification/utils/miscellaneous.md
+      - model_tracking: textile_classification/utils/model_tracking.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+  - .  # reload docs for any file changes
+use_directory_urls: False

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:\users\rahmatis\documents\GitHub_Projects\texture_classification\mlruns/802405997968001642/04aea7e7ab6949709a4c779a595253ae/artifacts
+end_time: 1678874927567
+entry_point_name: ''
+experiment_id: '802405997968001642'
+lifecycle_stage: active
+run_id: 04aea7e7ab6949709a4c779a595253ae
+run_name: puzzled-shrimp-10
+run_uuid: 04aea7e7ab6949709a4c779a595253ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678807210324
+status: 3
+tags: []
+user_id: rahmatis

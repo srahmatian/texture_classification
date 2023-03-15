@@ -1,0 +1,1 @@
+::: textile_classification.models.pretrained_efficientnet

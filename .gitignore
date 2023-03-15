@@ -1,0 +1,31 @@
+# Environment
+venv/
+
+# Pyenv
+.python-version
+
+# Byte-compiled
+__pycache__
+textile_classification/__pycache__
+tests/__pycache__
+textile_classification/data_setters/__pycache__
+textile_classification/utils/__pycache__
+textile_classification/model/__pycache__
+hub/pretrained_models/__pycache__
+
+
+# Checkpoint
+hub/fine_tuned_models/*.pt
+mlruns/**/*.pt
+
+
+
+# Distribution / packaging
+*.egg-info/
+
+# VSCode
+.vscode/
+
+# Test
+temporary_test.py
+

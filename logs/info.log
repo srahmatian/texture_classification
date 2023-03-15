@@ -1,0 +1,2049 @@
+ERROR 2023-03-04 01:19:13,052 [root:data_set_visualization.py:plot_images:30]
+input labels_grnd_truth must be a tensor having 1 dimension
+
+ERROR 2023-03-04 17:01:22,891 [root:test.py:<module>:107]
+File none does not exist.
+
+INFO 2023-03-04 21:51:56,977 [root:train.py:train_model:63]
+Epoch 1
+-------------------------------
+
+INFO 2023-03-04 21:52:11,710 [root:train.py:train_model:85]
+train_loss: 0.31872  [0/6572]
+
+INFO 2023-03-04 21:58:58,356 [root:train.py:train_model:85]
+train_loss: 0.03076  [800/6572]
+
+INFO 2023-03-04 22:06:12,722 [root:train.py:train_model:85]
+train_loss: 0.01119  [1600/6572]
+
+INFO 2023-03-04 22:12:47,491 [root:train.py:train_model:85]
+train_loss: 0.00980  [2400/6572]
+
+INFO 2023-03-04 22:19:43,334 [root:train.py:train_model:85]
+train_loss: 0.00794  [3200/6572]
+
+INFO 2023-03-04 22:27:32,961 [root:train.py:train_model:63]
+Epoch 1
+-------------------------------
+
+INFO 2023-03-04 22:27:45,498 [root:train.py:train_model:85]
+train_loss: 0.31872  [0/6572]
+
+INFO 2023-03-04 22:33:50,686 [root:train.py:train_model:85]
+train_loss: 0.03076  [800/6572]
+
+INFO 2023-03-04 22:39:57,303 [root:train.py:train_model:85]
+train_loss: 0.01119  [1600/6572]
+
+INFO 2023-03-04 22:46:04,220 [root:train.py:train_model:85]
+train_loss: 0.00980  [2400/6572]
+
+INFO 2023-03-04 22:52:11,554 [root:train.py:train_model:85]
+train_loss: 0.00794  [3200/6572]
+
+INFO 2023-03-04 22:58:19,899 [root:train.py:train_model:85]
+train_loss: 0.00089  [4000/6572]
+
+INFO 2023-03-04 23:04:32,460 [root:train.py:train_model:85]
+train_loss: 0.00051  [4800/6572]
+
+INFO 2023-03-04 23:10:43,929 [root:train.py:train_model:85]
+train_loss: 0.00061  [5600/6572]
+
+INFO 2023-03-04 23:16:56,482 [root:train.py:train_model:85]
+train_loss: 0.00555  [6400/6572]
+
+INFO 2023-03-05 00:14:19,782 [root:train.py:train_model:63]
+Epoch 1
+-------------------------------
+
+INFO 2023-03-05 00:14:33,737 [root:train.py:train_model:85]
+train_loss: 0.31872  [0/6572]
+
+INFO 2023-03-05 00:20:53,035 [root:train.py:train_model:85]
+train_loss: 0.03076  [800/6572]
+
+INFO 2023-03-05 00:27:13,337 [root:train.py:train_model:85]
+train_loss: 0.01119  [1600/6572]
+
+INFO 2023-03-05 00:33:30,833 [root:train.py:train_model:85]
+train_loss: 0.00980  [2400/6572]
+
+INFO 2023-03-05 00:39:45,066 [root:train.py:train_model:85]
+train_loss: 0.00794  [3200/6572]
+
+INFO 2023-03-05 00:45:50,615 [root:train.py:train_model:85]
+train_loss: 0.00089  [4000/6572]
+
+INFO 2023-03-05 00:51:57,269 [root:train.py:train_model:85]
+train_loss: 0.00051  [4800/6572]
+
+INFO 2023-03-05 00:58:18,915 [root:train.py:train_model:85]
+train_loss: 0.00061  [5600/6572]
+
+INFO 2023-03-05 01:05:12,474 [root:train.py:train_model:85]
+train_loss: 0.00555  [6400/6572]
+
+INFO 2023-03-05 01:06:30,346 [root:train.py:train_model:132]
+val_loss: 0.00031  [0/1232]
+
+INFO 2023-03-05 01:08:50,431 [root:train.py:train_model:132]
+val_loss: 0.00061  [800/1232]
+
+INFO 2023-03-05 10:54:16,618 [root:train.py:train_model:63]
+Epoch 1
+-------------------------------
+
+INFO 2023-03-05 10:54:39,171 [root:train.py:train_model:85]
+train_loss: 0.31872, [num_feeded_data/num_whole_data]: [0/6572]
+
+INFO 2023-03-05 10:58:04,162 [root:train.py:train_model:63]
+Epoch 1
+-------------------------------
+
+INFO 2023-03-05 10:58:24,365 [root:train.py:train_model:85]
+train_loss: 0.31872, num_feeded_data/num_whole_data: [0/6572]
+
+INFO 2023-03-05 11:06:58,576 [root:train.py:train_model:85]
+train_loss: 0.03076, num_feeded_data/num_whole_data: [800/6572]
+
+INFO 2023-03-05 11:13:17,117 [root:train.py:train_model:85]
+train_loss: 0.01119, num_feeded_data/num_whole_data: [1600/6572]
+
+INFO 2023-03-05 11:19:28,559 [root:train.py:train_model:85]
+train_loss: 0.00980, num_feeded_data/num_whole_data: [2400/6572]
+
+INFO 2023-03-05 11:26:10,007 [root:train.py:train_model:85]
+train_loss: 0.00794, num_feeded_data/num_whole_data: [3200/6572]
+
+INFO 2023-03-05 11:32:48,636 [root:train.py:train_model:85]
+train_loss: 0.00089, num_feeded_data/num_whole_data: [4000/6572]
+
+INFO 2023-03-05 11:39:27,079 [root:train.py:train_model:85]
+train_loss: 0.00051, num_feeded_data/num_whole_data: [4800/6572]
+
+INFO 2023-03-05 11:45:56,965 [root:train.py:train_model:85]
+train_loss: 0.00061, num_feeded_data/num_whole_data: [5600/6572]
+
+INFO 2023-03-05 11:52:32,372 [root:train.py:train_model:85]
+train_loss: 0.00555, num_feeded_data/num_whole_data: [6400/6572]
+
+INFO 2023-03-05 11:53:46,254 [root:train.py:train_model:134]
+val_loss: 0.00031  [0/1232]
+
+INFO 2023-03-05 11:55:59,997 [root:train.py:train_model:134]
+val_loss: 0.00061  [800/1232]
+
+INFO 2023-03-05 11:57:10,527 [root:train.py:train_model:214]
+Training is Done
+
+INFO 2023-03-05 14:54:55,226 [root:train.py:train_model:63]
+Epoch 1
+-------------------------------
+
+INFO 2023-03-05 14:55:17,992 [root:train.py:train_model:85]
+train_loss: 0.31872, num_feeded_data/num_whole_data: [0/6572]
+
+INFO 2023-03-05 15:06:31,341 [root:train.py:train_model:85]
+train_loss: 0.03076, num_feeded_data/num_whole_data: [800/6572]
+
+INFO 2023-03-05 15:16:47,391 [root:train.py:train_model:85]
+train_loss: 0.01119, num_feeded_data/num_whole_data: [1600/6572]
+
+INFO 2023-03-05 15:23:07,180 [root:train.py:train_model:85]
+train_loss: 0.00980, num_feeded_data/num_whole_data: [2400/6572]
+
+INFO 2023-03-05 15:29:58,301 [root:train.py:train_model:85]
+train_loss: 0.00794, num_feeded_data/num_whole_data: [3200/6572]
+
+INFO 2023-03-05 15:36:19,136 [root:train.py:train_model:85]
+train_loss: 0.00089, num_feeded_data/num_whole_data: [4000/6572]
+
+INFO 2023-03-05 15:42:39,441 [root:train.py:train_model:85]
+train_loss: 0.00051, num_feeded_data/num_whole_data: [4800/6572]
+
+INFO 2023-03-05 15:49:02,221 [root:train.py:train_model:85]
+train_loss: 0.00061, num_feeded_data/num_whole_data: [5600/6572]
+
+INFO 2023-03-05 15:55:24,287 [root:train.py:train_model:85]
+train_loss: 0.00555, num_feeded_data/num_whole_data: [6400/6572]
+
+INFO 2023-03-05 15:56:36,607 [root:train.py:train_model:134]
+val_loss: 0.00031  [0/1232]
+
+INFO 2023-03-05 15:58:46,282 [root:train.py:train_model:134]
+val_loss: 0.00061  [800/1232]
+
+INFO 2023-03-05 15:59:52,845 [root:train.py:train_model:213]
+Training is Done
+
+INFO 2023-03-05 18:06:47,440 [root:test.py:test_model:75]
+test_loss: 0.00033, num_feeded_data/num_whole_data: [0/412]
+
+INFO 2023-03-05 18:06:51,045 [root:test.py:test_model:75]
+test_loss: 0.00046, num_feeded_data/num_whole_data: [25/412]
+
+INFO 2023-03-05 18:06:54,752 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [50/412]
+
+INFO 2023-03-05 18:06:58,560 [root:test.py:test_model:75]
+test_loss: 0.00014, num_feeded_data/num_whole_data: [75/412]
+
+INFO 2023-03-05 18:07:02,468 [root:test.py:test_model:75]
+test_loss: 0.00076, num_feeded_data/num_whole_data: [100/412]
+
+INFO 2023-03-05 18:07:06,377 [root:test.py:test_model:75]
+test_loss: 0.00045, num_feeded_data/num_whole_data: [125/412]
+
+INFO 2023-03-05 18:07:10,337 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [150/412]
+
+INFO 2023-03-05 18:07:14,296 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [175/412]
+
+INFO 2023-03-05 18:07:18,281 [root:test.py:test_model:75]
+test_loss: 0.00108, num_feeded_data/num_whole_data: [200/412]
+
+INFO 2023-03-05 18:07:22,285 [root:test.py:test_model:75]
+test_loss: 0.00079, num_feeded_data/num_whole_data: [225/412]
+
+INFO 2023-03-05 18:07:26,432 [root:test.py:test_model:75]
+test_loss: 0.00075, num_feeded_data/num_whole_data: [250/412]
+
+INFO 2023-03-05 18:07:30,502 [root:test.py:test_model:75]
+test_loss: 0.00037, num_feeded_data/num_whole_data: [275/412]
+
+INFO 2023-03-05 18:07:34,629 [root:test.py:test_model:75]
+test_loss: 0.00039, num_feeded_data/num_whole_data: [300/412]
+
+INFO 2023-03-05 18:07:38,776 [root:test.py:test_model:75]
+test_loss: 0.00166, num_feeded_data/num_whole_data: [325/412]
+
+INFO 2023-03-05 18:07:42,992 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [350/412]
+
+INFO 2023-03-05 18:07:47,071 [root:test.py:test_model:75]
+test_loss: 0.00027, num_feeded_data/num_whole_data: [375/412]
+
+INFO 2023-03-05 18:07:51,234 [root:test.py:test_model:75]
+test_loss: 0.00014, num_feeded_data/num_whole_data: [400/412]
+
+INFO 2023-03-05 18:15:42,848 [root:test.py:test_model:75]
+test_loss: 0.00005, num_feeded_data/num_whole_data: [0/412]
+
+INFO 2023-03-05 18:15:45,986 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [25/412]
+
+INFO 2023-03-05 18:15:49,108 [root:test.py:test_model:75]
+test_loss: 0.00036, num_feeded_data/num_whole_data: [50/412]
+
+INFO 2023-03-05 18:15:52,382 [root:test.py:test_model:75]
+test_loss: 0.00007, num_feeded_data/num_whole_data: [75/412]
+
+INFO 2023-03-05 18:15:55,789 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [100/412]
+
+INFO 2023-03-05 18:15:59,310 [root:test.py:test_model:75]
+test_loss: 0.00018, num_feeded_data/num_whole_data: [125/412]
+
+INFO 2023-03-05 18:16:02,791 [root:test.py:test_model:75]
+test_loss: 0.00022, num_feeded_data/num_whole_data: [150/412]
+
+INFO 2023-03-05 18:16:06,366 [root:test.py:test_model:75]
+test_loss: 0.00014, num_feeded_data/num_whole_data: [175/412]
+
+INFO 2023-03-05 18:16:09,990 [root:test.py:test_model:75]
+test_loss: 0.00050, num_feeded_data/num_whole_data: [200/412]
+
+INFO 2023-03-05 18:16:13,547 [root:test.py:test_model:75]
+test_loss: -0.00000, num_feeded_data/num_whole_data: [225/412]
+
+INFO 2023-03-05 18:16:17,241 [root:test.py:test_model:75]
+test_loss: 0.00004, num_feeded_data/num_whole_data: [250/412]
+
+INFO 2023-03-05 18:16:20,789 [root:test.py:test_model:75]
+test_loss: 0.00075, num_feeded_data/num_whole_data: [275/412]
+
+INFO 2023-03-05 18:16:24,460 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [300/412]
+
+INFO 2023-03-05 18:16:28,178 [root:test.py:test_model:75]
+test_loss: 0.00050, num_feeded_data/num_whole_data: [325/412]
+
+INFO 2023-03-05 18:16:31,895 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [350/412]
+
+INFO 2023-03-05 18:16:35,613 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [375/412]
+
+INFO 2023-03-05 18:16:39,409 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [400/412]
+
+INFO 2023-03-05 18:17:11,383 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [0/412]
+
+INFO 2023-03-05 18:17:15,040 [root:test.py:test_model:75]
+test_loss: 0.00030, num_feeded_data/num_whole_data: [25/412]
+
+INFO 2023-03-05 18:17:18,784 [root:test.py:test_model:75]
+test_loss: 0.00066, num_feeded_data/num_whole_data: [50/412]
+
+INFO 2023-03-05 18:17:22,715 [root:test.py:test_model:75]
+test_loss: 0.00065, num_feeded_data/num_whole_data: [75/412]
+
+INFO 2023-03-05 18:17:26,560 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [100/412]
+
+INFO 2023-03-05 18:17:30,430 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [125/412]
+
+INFO 2023-03-05 18:17:34,197 [root:test.py:test_model:75]
+test_loss: 0.00113, num_feeded_data/num_whole_data: [150/412]
+
+INFO 2023-03-05 18:17:37,914 [root:test.py:test_model:75]
+test_loss: 0.00004, num_feeded_data/num_whole_data: [175/412]
+
+INFO 2023-03-05 18:17:41,688 [root:test.py:test_model:75]
+test_loss: 0.00003, num_feeded_data/num_whole_data: [200/412]
+
+INFO 2023-03-05 18:17:45,896 [root:test.py:test_model:75]
+test_loss: 0.00050, num_feeded_data/num_whole_data: [225/412]
+
+INFO 2023-03-05 18:17:50,539 [root:test.py:test_model:75]
+test_loss: 0.00007, num_feeded_data/num_whole_data: [250/412]
+
+INFO 2023-03-05 18:17:54,850 [root:test.py:test_model:75]
+test_loss: 0.00031, num_feeded_data/num_whole_data: [275/412]
+
+INFO 2023-03-05 18:17:59,047 [root:test.py:test_model:75]
+test_loss: 0.00166, num_feeded_data/num_whole_data: [300/412]
+
+INFO 2023-03-05 18:18:03,242 [root:test.py:test_model:75]
+test_loss: 0.00046, num_feeded_data/num_whole_data: [325/412]
+
+INFO 2023-03-05 18:18:07,470 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [350/412]
+
+INFO 2023-03-05 18:18:11,579 [root:test.py:test_model:75]
+test_loss: 0.00034, num_feeded_data/num_whole_data: [375/412]
+
+INFO 2023-03-05 18:18:15,835 [root:test.py:test_model:75]
+test_loss: 0.00019, num_feeded_data/num_whole_data: [400/412]
+
+INFO 2023-03-05 18:44:07,224 [root:test.py:test_model:75]
+validation_loss: 0.00018, num_feeded_data/num_whole_data: [0/1232]
+
+INFO 2023-03-05 18:44:10,341 [root:test.py:test_model:75]
+validation_loss: 0.00037, num_feeded_data/num_whole_data: [25/1232]
+
+INFO 2023-03-05 18:44:13,614 [root:test.py:test_model:75]
+validation_loss: 0.00090, num_feeded_data/num_whole_data: [50/1232]
+
+INFO 2023-03-05 18:44:17,160 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [75/1232]
+
+INFO 2023-03-05 18:44:21,354 [root:test.py:test_model:75]
+validation_loss: 0.00078, num_feeded_data/num_whole_data: [100/1232]
+
+INFO 2023-03-05 18:44:25,196 [root:test.py:test_model:75]
+validation_loss: 0.00039, num_feeded_data/num_whole_data: [125/1232]
+
+INFO 2023-03-05 18:44:29,035 [root:test.py:test_model:75]
+validation_loss: 0.00016, num_feeded_data/num_whole_data: [150/1232]
+
+INFO 2023-03-05 18:44:32,865 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [175/1232]
+
+INFO 2023-03-05 18:44:36,727 [root:test.py:test_model:75]
+validation_loss: 0.00017, num_feeded_data/num_whole_data: [200/1232]
+
+INFO 2023-03-05 18:44:40,421 [root:test.py:test_model:75]
+validation_loss: 0.00033, num_feeded_data/num_whole_data: [225/1232]
+
+INFO 2023-03-05 18:44:44,145 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [250/1232]
+
+INFO 2023-03-05 18:44:47,813 [root:test.py:test_model:75]
+validation_loss: 0.00122, num_feeded_data/num_whole_data: [275/1232]
+
+INFO 2023-03-05 18:44:51,500 [root:test.py:test_model:75]
+validation_loss: 0.00062, num_feeded_data/num_whole_data: [300/1232]
+
+INFO 2023-03-05 18:44:55,161 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [325/1232]
+
+INFO 2023-03-05 18:44:59,249 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [350/1232]
+
+INFO 2023-03-05 18:45:02,900 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [375/1232]
+
+INFO 2023-03-05 18:45:06,743 [root:test.py:test_model:75]
+validation_loss: 0.00026, num_feeded_data/num_whole_data: [400/1232]
+
+INFO 2023-03-05 18:45:10,456 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [425/1232]
+
+INFO 2023-03-05 18:45:14,274 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [450/1232]
+
+INFO 2023-03-05 18:45:18,265 [root:test.py:test_model:75]
+validation_loss: 0.00056, num_feeded_data/num_whole_data: [475/1232]
+
+INFO 2023-03-05 18:46:11,877 [root:test.py:test_model:75]
+validation_loss: 0.00025, num_feeded_data/num_whole_data: [0/1232]
+
+INFO 2023-03-05 18:46:15,327 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [25/1232]
+
+INFO 2023-03-05 18:46:18,801 [root:test.py:test_model:75]
+validation_loss: 0.00049, num_feeded_data/num_whole_data: [50/1232]
+
+INFO 2023-03-05 18:46:22,362 [root:test.py:test_model:75]
+validation_loss: 0.00370, num_feeded_data/num_whole_data: [75/1232]
+
+INFO 2023-03-05 18:46:25,822 [root:test.py:test_model:75]
+validation_loss: 0.00038, num_feeded_data/num_whole_data: [100/1232]
+
+INFO 2023-03-05 18:46:29,382 [root:test.py:test_model:75]
+validation_loss: 0.00064, num_feeded_data/num_whole_data: [125/1232]
+
+INFO 2023-03-05 18:46:33,080 [root:test.py:test_model:75]
+validation_loss: 0.00067, num_feeded_data/num_whole_data: [150/1232]
+
+INFO 2023-03-05 18:46:37,099 [root:test.py:test_model:75]
+validation_loss: 0.00019, num_feeded_data/num_whole_data: [175/1232]
+
+INFO 2023-03-05 18:46:41,375 [root:test.py:test_model:75]
+validation_loss: 0.00039, num_feeded_data/num_whole_data: [200/1232]
+
+INFO 2023-03-05 18:46:45,467 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [225/1232]
+
+INFO 2023-03-05 18:46:49,714 [root:test.py:test_model:75]
+validation_loss: 0.00028, num_feeded_data/num_whole_data: [250/1232]
+
+INFO 2023-03-05 18:46:53,865 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [275/1232]
+
+INFO 2023-03-05 18:46:58,212 [root:test.py:test_model:75]
+validation_loss: 0.00014, num_feeded_data/num_whole_data: [300/1232]
+
+INFO 2023-03-05 18:47:02,391 [root:test.py:test_model:75]
+validation_loss: 0.00011, num_feeded_data/num_whole_data: [325/1232]
+
+INFO 2023-03-05 18:47:06,640 [root:test.py:test_model:75]
+validation_loss: 0.00007, num_feeded_data/num_whole_data: [350/1232]
+
+INFO 2023-03-05 18:47:10,755 [root:test.py:test_model:75]
+validation_loss: 0.00037, num_feeded_data/num_whole_data: [375/1232]
+
+INFO 2023-03-05 18:47:14,937 [root:test.py:test_model:75]
+validation_loss: 0.00076, num_feeded_data/num_whole_data: [400/1232]
+
+INFO 2023-03-05 18:47:19,030 [root:test.py:test_model:75]
+validation_loss: 0.00027, num_feeded_data/num_whole_data: [425/1232]
+
+INFO 2023-03-05 18:47:23,193 [root:test.py:test_model:75]
+validation_loss: 0.00055, num_feeded_data/num_whole_data: [450/1232]
+
+INFO 2023-03-05 18:47:27,365 [root:test.py:test_model:75]
+validation_loss: 0.00019, num_feeded_data/num_whole_data: [475/1232]
+
+INFO 2023-03-05 18:47:31,543 [root:test.py:test_model:75]
+validation_loss: 0.00012, num_feeded_data/num_whole_data: [500/1232]
+
+INFO 2023-03-05 18:47:35,696 [root:test.py:test_model:75]
+validation_loss: 0.00065, num_feeded_data/num_whole_data: [525/1232]
+
+INFO 2023-03-05 18:47:39,889 [root:test.py:test_model:75]
+validation_loss: 0.00023, num_feeded_data/num_whole_data: [550/1232]
+
+INFO 2023-03-05 18:47:44,021 [root:test.py:test_model:75]
+validation_loss: 0.00012, num_feeded_data/num_whole_data: [575/1232]
+
+INFO 2023-03-05 18:47:48,135 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [600/1232]
+
+INFO 2023-03-05 18:47:52,190 [root:test.py:test_model:75]
+validation_loss: -0.00000, num_feeded_data/num_whole_data: [625/1232]
+
+INFO 2023-03-05 18:47:56,407 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [650/1232]
+
+INFO 2023-03-05 18:48:00,608 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [675/1232]
+
+INFO 2023-03-05 18:48:04,904 [root:test.py:test_model:75]
+validation_loss: 0.00083, num_feeded_data/num_whole_data: [700/1232]
+
+INFO 2023-03-05 18:48:08,984 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [725/1232]
+
+INFO 2023-03-05 18:48:13,220 [root:test.py:test_model:75]
+validation_loss: 0.00006, num_feeded_data/num_whole_data: [750/1232]
+
+INFO 2023-03-05 18:48:17,393 [root:test.py:test_model:75]
+validation_loss: 0.00032, num_feeded_data/num_whole_data: [775/1232]
+
+INFO 2023-03-05 18:48:21,576 [root:test.py:test_model:75]
+validation_loss: 0.00157, num_feeded_data/num_whole_data: [800/1232]
+
+INFO 2023-03-05 18:48:25,672 [root:test.py:test_model:75]
+validation_loss: 0.00056, num_feeded_data/num_whole_data: [825/1232]
+
+INFO 2023-03-05 18:48:29,936 [root:test.py:test_model:75]
+validation_loss: 0.00033, num_feeded_data/num_whole_data: [850/1232]
+
+INFO 2023-03-05 18:48:34,078 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [875/1232]
+
+INFO 2023-03-05 18:48:38,294 [root:test.py:test_model:75]
+validation_loss: 0.00008, num_feeded_data/num_whole_data: [900/1232]
+
+INFO 2023-03-05 18:48:42,555 [root:test.py:test_model:75]
+validation_loss: 0.00012, num_feeded_data/num_whole_data: [925/1232]
+
+INFO 2023-03-05 18:48:46,906 [root:test.py:test_model:75]
+validation_loss: 0.00055, num_feeded_data/num_whole_data: [950/1232]
+
+INFO 2023-03-05 18:48:51,116 [root:test.py:test_model:75]
+validation_loss: 0.00103, num_feeded_data/num_whole_data: [975/1232]
+
+INFO 2023-03-05 18:48:55,378 [root:test.py:test_model:75]
+validation_loss: -0.00000, num_feeded_data/num_whole_data: [1000/1232]
+
+INFO 2023-03-05 18:48:59,656 [root:test.py:test_model:75]
+validation_loss: 0.00015, num_feeded_data/num_whole_data: [1025/1232]
+
+INFO 2023-03-05 18:49:04,446 [root:test.py:test_model:75]
+validation_loss: 0.00001, num_feeded_data/num_whole_data: [1050/1232]
+
+INFO 2023-03-05 18:49:09,127 [root:test.py:test_model:75]
+validation_loss: 0.00076, num_feeded_data/num_whole_data: [1075/1232]
+
+INFO 2023-03-05 18:49:14,110 [root:test.py:test_model:75]
+validation_loss: 0.00125, num_feeded_data/num_whole_data: [1100/1232]
+
+INFO 2023-03-05 18:49:18,891 [root:test.py:test_model:75]
+validation_loss: 0.00249, num_feeded_data/num_whole_data: [1125/1232]
+
+INFO 2023-03-05 18:49:24,509 [root:test.py:test_model:75]
+validation_loss: 0.00066, num_feeded_data/num_whole_data: [1150/1232]
+
+INFO 2023-03-05 18:49:29,849 [root:test.py:test_model:75]
+validation_loss: 0.00118, num_feeded_data/num_whole_data: [1175/1232]
+
+INFO 2023-03-05 18:49:34,610 [root:test.py:test_model:75]
+validation_loss: 0.00027, num_feeded_data/num_whole_data: [1200/1232]
+
+INFO 2023-03-05 18:49:39,279 [root:test.py:test_model:75]
+validation_loss: 0.00000, num_feeded_data/num_whole_data: [1225/1232]
+
+INFO 2023-03-05 18:53:56,861 [root:test.py:test_model:76]
+train_loss: 0.06223, num_feeded_data/num_whole_data: [0/6572]
+
+INFO 2023-03-05 18:54:00,687 [root:test.py:test_model:76]
+train_loss: 0.78118, num_feeded_data/num_whole_data: [25/6572]
+
+INFO 2023-03-05 18:54:04,573 [root:test.py:test_model:76]
+train_loss: 0.12928, num_feeded_data/num_whole_data: [50/6572]
+
+INFO 2023-03-05 18:54:08,477 [root:test.py:test_model:76]
+train_loss: 0.64803, num_feeded_data/num_whole_data: [75/6572]
+
+INFO 2023-03-05 18:54:13,446 [root:test.py:test_model:76]
+train_loss: 0.08181, num_feeded_data/num_whole_data: [100/6572]
+
+INFO 2023-03-05 18:54:18,733 [root:test.py:test_model:76]
+train_loss: 1.02754, num_feeded_data/num_whole_data: [125/6572]
+
+INFO 2023-03-05 18:54:24,113 [root:test.py:test_model:76]
+train_loss: 0.12629, num_feeded_data/num_whole_data: [150/6572]
+
+INFO 2023-03-05 18:54:29,365 [root:test.py:test_model:76]
+train_loss: 0.06848, num_feeded_data/num_whole_data: [175/6572]
+
+INFO 2023-03-05 18:54:34,702 [root:test.py:test_model:76]
+train_loss: 0.08907, num_feeded_data/num_whole_data: [200/6572]
+
+INFO 2023-03-05 18:54:39,953 [root:test.py:test_model:76]
+train_loss: 0.08954, num_feeded_data/num_whole_data: [225/6572]
+
+INFO 2023-03-05 18:54:45,252 [root:test.py:test_model:76]
+train_loss: 0.08880, num_feeded_data/num_whole_data: [250/6572]
+
+INFO 2023-03-05 18:54:50,378 [root:test.py:test_model:76]
+train_loss: 0.06217, num_feeded_data/num_whole_data: [275/6572]
+
+INFO 2023-03-05 18:54:55,629 [root:test.py:test_model:76]
+train_loss: 1.11961, num_feeded_data/num_whole_data: [300/6572]
+
+INFO 2023-03-05 18:55:00,800 [root:test.py:test_model:76]
+train_loss: 0.06136, num_feeded_data/num_whole_data: [325/6572]
+
+INFO 2023-03-05 18:55:06,067 [root:test.py:test_model:76]
+train_loss: 0.17168, num_feeded_data/num_whole_data: [350/6572]
+
+INFO 2023-03-05 18:55:11,250 [root:test.py:test_model:76]
+train_loss: 0.88633, num_feeded_data/num_whole_data: [375/6572]
+
+INFO 2023-03-05 18:55:16,510 [root:test.py:test_model:76]
+train_loss: 0.05654, num_feeded_data/num_whole_data: [400/6572]
+
+INFO 2023-03-05 18:55:21,702 [root:test.py:test_model:76]
+train_loss: 0.06829, num_feeded_data/num_whole_data: [425/6572]
+
+INFO 2023-03-05 18:55:26,935 [root:test.py:test_model:76]
+train_loss: 0.09088, num_feeded_data/num_whole_data: [450/6572]
+
+INFO 2023-03-05 18:55:32,120 [root:test.py:test_model:76]
+train_loss: 0.70990, num_feeded_data/num_whole_data: [475/6572]
+
+INFO 2023-03-05 18:55:37,396 [root:test.py:test_model:76]
+train_loss: 0.08228, num_feeded_data/num_whole_data: [500/6572]
+
+INFO 2023-03-05 18:55:42,616 [root:test.py:test_model:76]
+train_loss: 0.78484, num_feeded_data/num_whole_data: [525/6572]
+
+INFO 2023-03-05 18:55:47,837 [root:test.py:test_model:76]
+train_loss: 1.04311, num_feeded_data/num_whole_data: [550/6572]
+
+INFO 2023-03-05 18:55:53,012 [root:test.py:test_model:76]
+train_loss: 0.90629, num_feeded_data/num_whole_data: [575/6572]
+
+INFO 2023-03-05 18:55:58,275 [root:test.py:test_model:76]
+train_loss: 1.12447, num_feeded_data/num_whole_data: [600/6572]
+
+INFO 2023-03-05 18:56:03,501 [root:test.py:test_model:76]
+train_loss: 0.11303, num_feeded_data/num_whole_data: [625/6572]
+
+INFO 2023-03-05 18:56:08,766 [root:test.py:test_model:76]
+train_loss: 0.66224, num_feeded_data/num_whole_data: [650/6572]
+
+INFO 2023-03-05 18:56:13,938 [root:test.py:test_model:76]
+train_loss: 0.09204, num_feeded_data/num_whole_data: [675/6572]
+
+INFO 2023-03-05 18:56:19,202 [root:test.py:test_model:76]
+train_loss: 0.10104, num_feeded_data/num_whole_data: [700/6572]
+
+INFO 2023-03-05 18:56:24,379 [root:test.py:test_model:76]
+train_loss: 0.09787, num_feeded_data/num_whole_data: [725/6572]
+
+INFO 2023-03-05 18:56:29,623 [root:test.py:test_model:76]
+train_loss: 0.07111, num_feeded_data/num_whole_data: [750/6572]
+
+INFO 2023-03-05 18:56:34,843 [root:test.py:test_model:76]
+train_loss: 0.66785, num_feeded_data/num_whole_data: [775/6572]
+
+INFO 2023-03-05 18:56:40,087 [root:test.py:test_model:76]
+train_loss: 0.76611, num_feeded_data/num_whole_data: [800/6572]
+
+INFO 2023-03-05 18:56:45,287 [root:test.py:test_model:76]
+train_loss: 0.10505, num_feeded_data/num_whole_data: [825/6572]
+
+INFO 2023-03-05 18:56:50,570 [root:test.py:test_model:76]
+train_loss: 0.09265, num_feeded_data/num_whole_data: [850/6572]
+
+INFO 2023-03-05 18:56:55,747 [root:test.py:test_model:76]
+train_loss: 0.06215, num_feeded_data/num_whole_data: [875/6572]
+
+INFO 2023-03-05 18:57:01,084 [root:test.py:test_model:76]
+train_loss: 0.07309, num_feeded_data/num_whole_data: [900/6572]
+
+INFO 2023-03-05 18:57:06,241 [root:test.py:test_model:76]
+train_loss: 0.12776, num_feeded_data/num_whole_data: [925/6572]
+
+INFO 2023-03-05 18:57:11,484 [root:test.py:test_model:76]
+train_loss: 0.07399, num_feeded_data/num_whole_data: [950/6572]
+
+INFO 2023-03-05 18:57:16,676 [root:test.py:test_model:76]
+train_loss: 0.15052, num_feeded_data/num_whole_data: [975/6572]
+
+INFO 2023-03-05 18:57:21,909 [root:test.py:test_model:76]
+train_loss: 0.84293, num_feeded_data/num_whole_data: [1000/6572]
+
+INFO 2023-03-05 18:57:27,103 [root:test.py:test_model:76]
+train_loss: 0.06827, num_feeded_data/num_whole_data: [1025/6572]
+
+INFO 2023-03-05 18:57:32,342 [root:test.py:test_model:76]
+train_loss: 0.09663, num_feeded_data/num_whole_data: [1050/6572]
+
+INFO 2023-03-05 18:57:37,520 [root:test.py:test_model:76]
+train_loss: 0.58440, num_feeded_data/num_whole_data: [1075/6572]
+
+INFO 2023-03-05 18:57:42,818 [root:test.py:test_model:76]
+train_loss: 0.10066, num_feeded_data/num_whole_data: [1100/6572]
+
+INFO 2023-03-05 18:57:47,993 [root:test.py:test_model:76]
+train_loss: 0.09539, num_feeded_data/num_whole_data: [1125/6572]
+
+INFO 2023-03-05 18:57:53,207 [root:test.py:test_model:76]
+train_loss: 0.07880, num_feeded_data/num_whole_data: [1150/6572]
+
+INFO 2023-03-05 18:57:58,364 [root:test.py:test_model:76]
+train_loss: 0.80143, num_feeded_data/num_whole_data: [1175/6572]
+
+INFO 2023-03-05 18:58:03,644 [root:test.py:test_model:76]
+train_loss: 0.09211, num_feeded_data/num_whole_data: [1200/6572]
+
+INFO 2023-03-05 18:58:08,897 [root:test.py:test_model:76]
+train_loss: 0.07124, num_feeded_data/num_whole_data: [1225/6572]
+
+INFO 2023-03-05 18:58:14,284 [root:test.py:test_model:76]
+train_loss: 0.10955, num_feeded_data/num_whole_data: [1250/6572]
+
+INFO 2023-03-05 18:58:19,479 [root:test.py:test_model:76]
+train_loss: 0.76381, num_feeded_data/num_whole_data: [1275/6572]
+
+INFO 2023-03-05 18:58:24,742 [root:test.py:test_model:76]
+train_loss: 0.70905, num_feeded_data/num_whole_data: [1300/6572]
+
+INFO 2023-03-05 18:58:29,875 [root:test.py:test_model:76]
+train_loss: 0.06360, num_feeded_data/num_whole_data: [1325/6572]
+
+INFO 2023-03-05 18:58:35,116 [root:test.py:test_model:76]
+train_loss: 0.10111, num_feeded_data/num_whole_data: [1350/6572]
+
+INFO 2023-03-05 18:58:40,716 [root:test.py:test_model:76]
+train_loss: 0.64033, num_feeded_data/num_whole_data: [1375/6572]
+
+INFO 2023-03-05 18:58:46,104 [root:test.py:test_model:76]
+train_loss: 0.78075, num_feeded_data/num_whole_data: [1400/6572]
+
+INFO 2023-03-05 18:58:51,273 [root:test.py:test_model:76]
+train_loss: 0.79387, num_feeded_data/num_whole_data: [1425/6572]
+
+INFO 2023-03-05 18:58:56,619 [root:test.py:test_model:76]
+train_loss: 0.12350, num_feeded_data/num_whole_data: [1450/6572]
+
+INFO 2023-03-05 18:59:01,865 [root:test.py:test_model:76]
+train_loss: 0.09877, num_feeded_data/num_whole_data: [1475/6572]
+
+INFO 2023-03-05 18:59:07,185 [root:test.py:test_model:76]
+train_loss: 0.79046, num_feeded_data/num_whole_data: [1500/6572]
+
+INFO 2023-03-05 18:59:12,355 [root:test.py:test_model:76]
+train_loss: 0.14724, num_feeded_data/num_whole_data: [1525/6572]
+
+INFO 2023-03-05 18:59:17,764 [root:test.py:test_model:76]
+train_loss: 0.11476, num_feeded_data/num_whole_data: [1550/6572]
+
+INFO 2023-03-05 18:59:22,967 [root:test.py:test_model:76]
+train_loss: 0.83598, num_feeded_data/num_whole_data: [1575/6572]
+
+INFO 2023-03-05 18:59:28,289 [root:test.py:test_model:76]
+train_loss: 0.07274, num_feeded_data/num_whole_data: [1600/6572]
+
+INFO 2023-03-05 18:59:33,455 [root:test.py:test_model:76]
+train_loss: 0.11217, num_feeded_data/num_whole_data: [1625/6572]
+
+INFO 2023-03-05 18:59:38,925 [root:test.py:test_model:76]
+train_loss: 0.88724, num_feeded_data/num_whole_data: [1650/6572]
+
+INFO 2023-03-05 18:59:44,060 [root:test.py:test_model:76]
+train_loss: 0.09830, num_feeded_data/num_whole_data: [1675/6572]
+
+INFO 2023-03-05 18:59:49,333 [root:test.py:test_model:76]
+train_loss: 0.09916, num_feeded_data/num_whole_data: [1700/6572]
+
+INFO 2023-03-05 18:59:54,484 [root:test.py:test_model:76]
+train_loss: 0.07675, num_feeded_data/num_whole_data: [1725/6572]
+
+INFO 2023-03-05 18:59:59,834 [root:test.py:test_model:76]
+train_loss: 0.05271, num_feeded_data/num_whole_data: [1750/6572]
+
+INFO 2023-03-05 19:00:05,043 [root:test.py:test_model:76]
+train_loss: 1.02824, num_feeded_data/num_whole_data: [1775/6572]
+
+INFO 2023-03-05 19:00:10,324 [root:test.py:test_model:76]
+train_loss: 0.10246, num_feeded_data/num_whole_data: [1800/6572]
+
+INFO 2023-03-05 19:00:15,595 [root:test.py:test_model:76]
+train_loss: 0.09438, num_feeded_data/num_whole_data: [1825/6572]
+
+INFO 2023-03-05 19:00:20,893 [root:test.py:test_model:76]
+train_loss: 0.10576, num_feeded_data/num_whole_data: [1850/6572]
+
+INFO 2023-03-05 19:00:26,066 [root:test.py:test_model:76]
+train_loss: 0.98543, num_feeded_data/num_whole_data: [1875/6572]
+
+INFO 2023-03-05 19:00:31,309 [root:test.py:test_model:76]
+train_loss: 0.15042, num_feeded_data/num_whole_data: [1900/6572]
+
+INFO 2023-03-05 19:00:36,527 [root:test.py:test_model:76]
+train_loss: 0.08407, num_feeded_data/num_whole_data: [1925/6572]
+
+INFO 2023-03-05 19:00:41,766 [root:test.py:test_model:76]
+train_loss: 0.11906, num_feeded_data/num_whole_data: [1950/6572]
+
+INFO 2023-03-05 19:00:46,981 [root:test.py:test_model:76]
+train_loss: 0.07914, num_feeded_data/num_whole_data: [1975/6572]
+
+INFO 2023-03-05 19:00:52,248 [root:test.py:test_model:76]
+train_loss: 0.92412, num_feeded_data/num_whole_data: [2000/6572]
+
+INFO 2023-03-05 19:00:57,463 [root:test.py:test_model:76]
+train_loss: 0.14870, num_feeded_data/num_whole_data: [2025/6572]
+
+INFO 2023-03-05 19:01:02,812 [root:test.py:test_model:76]
+train_loss: 0.21999, num_feeded_data/num_whole_data: [2050/6572]
+
+INFO 2023-03-05 19:01:08,014 [root:test.py:test_model:76]
+train_loss: 0.09117, num_feeded_data/num_whole_data: [2075/6572]
+
+INFO 2023-03-05 19:01:13,251 [root:test.py:test_model:76]
+train_loss: 0.82999, num_feeded_data/num_whole_data: [2100/6572]
+
+INFO 2023-03-05 19:01:18,414 [root:test.py:test_model:76]
+train_loss: 0.09723, num_feeded_data/num_whole_data: [2125/6572]
+
+INFO 2023-03-05 19:01:23,738 [root:test.py:test_model:76]
+train_loss: 0.07913, num_feeded_data/num_whole_data: [2150/6572]
+
+INFO 2023-03-05 19:01:29,302 [root:test.py:test_model:76]
+train_loss: 0.76804, num_feeded_data/num_whole_data: [2175/6572]
+
+INFO 2023-03-05 19:01:34,931 [root:test.py:test_model:76]
+train_loss: 0.76718, num_feeded_data/num_whole_data: [2200/6572]
+
+INFO 2023-03-05 19:01:40,124 [root:test.py:test_model:76]
+train_loss: 0.71298, num_feeded_data/num_whole_data: [2225/6572]
+
+INFO 2023-03-05 19:01:45,369 [root:test.py:test_model:76]
+train_loss: 0.66812, num_feeded_data/num_whole_data: [2250/6572]
+
+INFO 2023-03-05 19:01:50,534 [root:test.py:test_model:76]
+train_loss: 0.59786, num_feeded_data/num_whole_data: [2275/6572]
+
+INFO 2023-03-05 19:01:55,820 [root:test.py:test_model:76]
+train_loss: 0.87350, num_feeded_data/num_whole_data: [2300/6572]
+
+INFO 2023-03-05 19:02:01,053 [root:test.py:test_model:76]
+train_loss: 0.05579, num_feeded_data/num_whole_data: [2325/6572]
+
+INFO 2023-03-05 19:02:06,302 [root:test.py:test_model:76]
+train_loss: 0.07087, num_feeded_data/num_whole_data: [2350/6572]
+
+INFO 2023-03-05 19:02:11,582 [root:test.py:test_model:76]
+train_loss: 0.56085, num_feeded_data/num_whole_data: [2375/6572]
+
+INFO 2023-03-05 19:02:16,882 [root:test.py:test_model:76]
+train_loss: 0.99777, num_feeded_data/num_whole_data: [2400/6572]
+
+INFO 2023-03-05 19:02:22,070 [root:test.py:test_model:76]
+train_loss: 0.09276, num_feeded_data/num_whole_data: [2425/6572]
+
+INFO 2023-03-05 19:02:27,347 [root:test.py:test_model:76]
+train_loss: 0.06870, num_feeded_data/num_whole_data: [2450/6572]
+
+INFO 2023-03-05 19:02:32,525 [root:test.py:test_model:76]
+train_loss: 0.09267, num_feeded_data/num_whole_data: [2475/6572]
+
+INFO 2023-03-05 19:02:37,071 [root:test.py:test_model:76]
+train_loss: 0.10465, num_feeded_data/num_whole_data: [2500/6572]
+
+INFO 2023-03-05 19:02:41,657 [root:test.py:test_model:76]
+train_loss: 0.12727, num_feeded_data/num_whole_data: [2525/6572]
+
+INFO 2023-03-05 19:02:46,398 [root:test.py:test_model:76]
+train_loss: 0.67436, num_feeded_data/num_whole_data: [2550/6572]
+
+INFO 2023-03-05 19:02:51,043 [root:test.py:test_model:76]
+train_loss: 1.06278, num_feeded_data/num_whole_data: [2575/6572]
+
+INFO 2023-03-05 19:02:56,648 [root:test.py:test_model:76]
+train_loss: 1.20931, num_feeded_data/num_whole_data: [2600/6572]
+
+INFO 2023-03-05 19:03:02,216 [root:test.py:test_model:76]
+train_loss: 0.14806, num_feeded_data/num_whole_data: [2625/6572]
+
+INFO 2023-03-05 19:03:06,951 [root:test.py:test_model:76]
+train_loss: 0.07037, num_feeded_data/num_whole_data: [2650/6572]
+
+INFO 2023-03-05 19:03:11,566 [root:test.py:test_model:76]
+train_loss: 0.07758, num_feeded_data/num_whole_data: [2675/6572]
+
+INFO 2023-03-05 19:03:16,284 [root:test.py:test_model:76]
+train_loss: 0.08228, num_feeded_data/num_whole_data: [2700/6572]
+
+INFO 2023-03-05 19:03:20,963 [root:test.py:test_model:76]
+train_loss: 0.18820, num_feeded_data/num_whole_data: [2725/6572]
+
+INFO 2023-03-05 19:03:25,736 [root:test.py:test_model:76]
+train_loss: 0.66710, num_feeded_data/num_whole_data: [2750/6572]
+
+INFO 2023-03-05 19:03:30,369 [root:test.py:test_model:76]
+train_loss: 0.68843, num_feeded_data/num_whole_data: [2775/6572]
+
+INFO 2023-03-05 19:03:35,098 [root:test.py:test_model:76]
+train_loss: 0.83491, num_feeded_data/num_whole_data: [2800/6572]
+
+INFO 2023-03-05 19:03:39,878 [root:test.py:test_model:76]
+train_loss: 0.81009, num_feeded_data/num_whole_data: [2825/6572]
+
+INFO 2023-03-05 19:03:44,612 [root:test.py:test_model:76]
+train_loss: 0.59673, num_feeded_data/num_whole_data: [2850/6572]
+
+INFO 2023-03-05 19:03:49,269 [root:test.py:test_model:76]
+train_loss: 0.05934, num_feeded_data/num_whole_data: [2875/6572]
+
+INFO 2023-03-05 19:03:53,989 [root:test.py:test_model:76]
+train_loss: 0.14393, num_feeded_data/num_whole_data: [2900/6572]
+
+INFO 2023-03-05 19:03:58,658 [root:test.py:test_model:76]
+train_loss: 0.09546, num_feeded_data/num_whole_data: [2925/6572]
+
+INFO 2023-03-05 19:04:03,474 [root:test.py:test_model:76]
+train_loss: 0.08483, num_feeded_data/num_whole_data: [2950/6572]
+
+INFO 2023-03-05 19:04:08,157 [root:test.py:test_model:76]
+train_loss: 0.68523, num_feeded_data/num_whole_data: [2975/6572]
+
+INFO 2023-03-05 19:04:12,917 [root:test.py:test_model:76]
+train_loss: 0.82589, num_feeded_data/num_whole_data: [3000/6572]
+
+INFO 2023-03-05 19:04:17,545 [root:test.py:test_model:76]
+train_loss: 0.08800, num_feeded_data/num_whole_data: [3025/6572]
+
+INFO 2023-03-05 19:04:22,325 [root:test.py:test_model:76]
+train_loss: 0.19242, num_feeded_data/num_whole_data: [3050/6572]
+
+INFO 2023-03-05 19:04:26,993 [root:test.py:test_model:76]
+train_loss: 0.05254, num_feeded_data/num_whole_data: [3075/6572]
+
+INFO 2023-03-05 19:04:31,742 [root:test.py:test_model:76]
+train_loss: 1.07218, num_feeded_data/num_whole_data: [3100/6572]
+
+INFO 2023-03-05 19:04:36,386 [root:test.py:test_model:76]
+train_loss: 0.11920, num_feeded_data/num_whole_data: [3125/6572]
+
+INFO 2023-03-05 19:04:41,137 [root:test.py:test_model:76]
+train_loss: 0.05380, num_feeded_data/num_whole_data: [3150/6572]
+
+INFO 2023-03-05 19:04:45,719 [root:test.py:test_model:76]
+train_loss: 0.07068, num_feeded_data/num_whole_data: [3175/6572]
+
+INFO 2023-03-05 19:04:50,486 [root:test.py:test_model:76]
+train_loss: 0.07513, num_feeded_data/num_whole_data: [3200/6572]
+
+INFO 2023-03-05 19:04:55,090 [root:test.py:test_model:76]
+train_loss: 1.02661, num_feeded_data/num_whole_data: [3225/6572]
+
+INFO 2023-03-05 19:04:59,826 [root:test.py:test_model:76]
+train_loss: 0.75465, num_feeded_data/num_whole_data: [3250/6572]
+
+INFO 2023-03-05 19:05:04,462 [root:test.py:test_model:76]
+train_loss: 0.08371, num_feeded_data/num_whole_data: [3275/6572]
+
+INFO 2023-03-05 19:05:09,157 [root:test.py:test_model:76]
+train_loss: 0.60715, num_feeded_data/num_whole_data: [3300/6572]
+
+INFO 2023-03-05 19:05:13,781 [root:test.py:test_model:76]
+train_loss: 0.10714, num_feeded_data/num_whole_data: [3325/6572]
+
+INFO 2023-03-05 19:05:18,497 [root:test.py:test_model:76]
+train_loss: 1.00526, num_feeded_data/num_whole_data: [3350/6572]
+
+INFO 2023-03-05 19:05:23,223 [root:test.py:test_model:76]
+train_loss: 0.10221, num_feeded_data/num_whole_data: [3375/6572]
+
+INFO 2023-03-05 19:05:27,995 [root:test.py:test_model:76]
+train_loss: 1.18991, num_feeded_data/num_whole_data: [3400/6572]
+
+INFO 2023-03-05 19:05:32,621 [root:test.py:test_model:76]
+train_loss: 0.11259, num_feeded_data/num_whole_data: [3425/6572]
+
+INFO 2023-03-05 19:05:37,384 [root:test.py:test_model:76]
+train_loss: 0.06499, num_feeded_data/num_whole_data: [3450/6572]
+
+INFO 2023-03-05 19:05:42,080 [root:test.py:test_model:76]
+train_loss: 0.07160, num_feeded_data/num_whole_data: [3475/6572]
+
+INFO 2023-03-05 19:05:46,835 [root:test.py:test_model:76]
+train_loss: 0.06580, num_feeded_data/num_whole_data: [3500/6572]
+
+INFO 2023-03-05 19:05:51,478 [root:test.py:test_model:76]
+train_loss: 0.68537, num_feeded_data/num_whole_data: [3525/6572]
+
+INFO 2023-03-05 19:05:56,189 [root:test.py:test_model:76]
+train_loss: 0.07838, num_feeded_data/num_whole_data: [3550/6572]
+
+INFO 2023-03-05 19:06:00,861 [root:test.py:test_model:76]
+train_loss: 0.08159, num_feeded_data/num_whole_data: [3575/6572]
+
+INFO 2023-03-05 19:06:05,574 [root:test.py:test_model:76]
+train_loss: 0.14741, num_feeded_data/num_whole_data: [3600/6572]
+
+INFO 2023-03-05 19:06:10,187 [root:test.py:test_model:76]
+train_loss: 0.70838, num_feeded_data/num_whole_data: [3625/6572]
+
+INFO 2023-03-05 19:06:14,962 [root:test.py:test_model:76]
+train_loss: 0.96139, num_feeded_data/num_whole_data: [3650/6572]
+
+INFO 2023-03-05 19:06:19,599 [root:test.py:test_model:76]
+train_loss: 0.77667, num_feeded_data/num_whole_data: [3675/6572]
+
+INFO 2023-03-05 19:06:24,351 [root:test.py:test_model:76]
+train_loss: 0.08451, num_feeded_data/num_whole_data: [3700/6572]
+
+INFO 2023-03-05 19:06:28,926 [root:test.py:test_model:76]
+train_loss: 0.10216, num_feeded_data/num_whole_data: [3725/6572]
+
+INFO 2023-03-05 19:06:33,684 [root:test.py:test_model:76]
+train_loss: 0.12623, num_feeded_data/num_whole_data: [3750/6572]
+
+INFO 2023-03-05 19:06:38,369 [root:test.py:test_model:76]
+train_loss: 0.11150, num_feeded_data/num_whole_data: [3775/6572]
+
+INFO 2023-03-05 19:06:43,094 [root:test.py:test_model:76]
+train_loss: 0.75239, num_feeded_data/num_whole_data: [3800/6572]
+
+INFO 2023-03-05 19:06:47,743 [root:test.py:test_model:76]
+train_loss: 0.10804, num_feeded_data/num_whole_data: [3825/6572]
+
+INFO 2023-03-05 19:06:52,494 [root:test.py:test_model:76]
+train_loss: 0.08003, num_feeded_data/num_whole_data: [3850/6572]
+
+INFO 2023-03-05 19:06:57,138 [root:test.py:test_model:76]
+train_loss: 0.96651, num_feeded_data/num_whole_data: [3875/6572]
+
+INFO 2023-03-05 19:07:01,922 [root:test.py:test_model:76]
+train_loss: 0.05894, num_feeded_data/num_whole_data: [3900/6572]
+
+INFO 2023-03-05 19:07:06,572 [root:test.py:test_model:76]
+train_loss: 1.02835, num_feeded_data/num_whole_data: [3925/6572]
+
+INFO 2023-03-05 19:07:11,312 [root:test.py:test_model:76]
+train_loss: 0.83082, num_feeded_data/num_whole_data: [3950/6572]
+
+INFO 2023-03-05 19:07:15,915 [root:test.py:test_model:76]
+train_loss: 0.75508, num_feeded_data/num_whole_data: [3975/6572]
+
+INFO 2023-03-05 19:07:20,652 [root:test.py:test_model:76]
+train_loss: 0.10757, num_feeded_data/num_whole_data: [4000/6572]
+
+INFO 2023-03-05 19:07:25,321 [root:test.py:test_model:76]
+train_loss: 0.05948, num_feeded_data/num_whole_data: [4025/6572]
+
+INFO 2023-03-05 19:07:29,996 [root:test.py:test_model:76]
+train_loss: 1.11938, num_feeded_data/num_whole_data: [4050/6572]
+
+INFO 2023-03-05 19:07:34,661 [root:test.py:test_model:76]
+train_loss: 0.07605, num_feeded_data/num_whole_data: [4075/6572]
+
+INFO 2023-03-05 19:07:39,364 [root:test.py:test_model:76]
+train_loss: 0.62609, num_feeded_data/num_whole_data: [4100/6572]
+
+INFO 2023-03-05 19:07:44,068 [root:test.py:test_model:76]
+train_loss: 0.07525, num_feeded_data/num_whole_data: [4125/6572]
+
+INFO 2023-03-05 19:07:48,785 [root:test.py:test_model:76]
+train_loss: 0.96236, num_feeded_data/num_whole_data: [4150/6572]
+
+INFO 2023-03-05 19:07:53,466 [root:test.py:test_model:76]
+train_loss: 0.72368, num_feeded_data/num_whole_data: [4175/6572]
+
+INFO 2023-03-05 19:07:58,364 [root:test.py:test_model:76]
+train_loss: 0.12407, num_feeded_data/num_whole_data: [4200/6572]
+
+INFO 2023-03-05 19:08:03,041 [root:test.py:test_model:76]
+train_loss: 0.07400, num_feeded_data/num_whole_data: [4225/6572]
+
+INFO 2023-03-05 19:08:07,837 [root:test.py:test_model:76]
+train_loss: 0.93534, num_feeded_data/num_whole_data: [4250/6572]
+
+INFO 2023-03-05 19:08:12,449 [root:test.py:test_model:76]
+train_loss: 0.08521, num_feeded_data/num_whole_data: [4275/6572]
+
+INFO 2023-03-05 19:08:17,193 [root:test.py:test_model:76]
+train_loss: 0.07702, num_feeded_data/num_whole_data: [4300/6572]
+
+INFO 2023-03-05 19:08:21,841 [root:test.py:test_model:76]
+train_loss: 0.15051, num_feeded_data/num_whole_data: [4325/6572]
+
+INFO 2023-03-05 19:08:26,586 [root:test.py:test_model:76]
+train_loss: 0.09052, num_feeded_data/num_whole_data: [4350/6572]
+
+INFO 2023-03-05 19:08:31,243 [root:test.py:test_model:76]
+train_loss: 1.09870, num_feeded_data/num_whole_data: [4375/6572]
+
+INFO 2023-03-05 19:08:36,043 [root:test.py:test_model:76]
+train_loss: 1.02278, num_feeded_data/num_whole_data: [4400/6572]
+
+INFO 2023-03-05 19:08:40,668 [root:test.py:test_model:76]
+train_loss: 0.11587, num_feeded_data/num_whole_data: [4425/6572]
+
+INFO 2023-03-05 19:08:45,409 [root:test.py:test_model:76]
+train_loss: 0.75587, num_feeded_data/num_whole_data: [4450/6572]
+
+INFO 2023-03-05 19:08:50,003 [root:test.py:test_model:76]
+train_loss: 0.95979, num_feeded_data/num_whole_data: [4475/6572]
+
+INFO 2023-03-05 19:08:54,726 [root:test.py:test_model:76]
+train_loss: 0.08812, num_feeded_data/num_whole_data: [4500/6572]
+
+INFO 2023-03-05 19:08:59,379 [root:test.py:test_model:76]
+train_loss: 0.06462, num_feeded_data/num_whole_data: [4525/6572]
+
+INFO 2023-03-05 19:09:04,147 [root:test.py:test_model:76]
+train_loss: 0.98023, num_feeded_data/num_whole_data: [4550/6572]
+
+INFO 2023-03-05 19:09:08,779 [root:test.py:test_model:76]
+train_loss: 0.63531, num_feeded_data/num_whole_data: [4575/6572]
+
+INFO 2023-03-05 19:09:13,505 [root:test.py:test_model:76]
+train_loss: 0.09413, num_feeded_data/num_whole_data: [4600/6572]
+
+INFO 2023-03-05 19:09:18,112 [root:test.py:test_model:76]
+train_loss: 0.13166, num_feeded_data/num_whole_data: [4625/6572]
+
+INFO 2023-03-05 19:09:22,787 [root:test.py:test_model:76]
+train_loss: 0.06458, num_feeded_data/num_whole_data: [4650/6572]
+
+INFO 2023-03-05 19:09:27,502 [root:test.py:test_model:76]
+train_loss: 0.12868, num_feeded_data/num_whole_data: [4675/6572]
+
+INFO 2023-03-05 19:09:32,249 [root:test.py:test_model:76]
+train_loss: 0.74663, num_feeded_data/num_whole_data: [4700/6572]
+
+INFO 2023-03-05 19:09:37,098 [root:test.py:test_model:76]
+train_loss: 0.07875, num_feeded_data/num_whole_data: [4725/6572]
+
+INFO 2023-03-05 19:09:41,944 [root:test.py:test_model:76]
+train_loss: 0.87185, num_feeded_data/num_whole_data: [4750/6572]
+
+INFO 2023-03-05 19:09:46,637 [root:test.py:test_model:76]
+train_loss: 0.09203, num_feeded_data/num_whole_data: [4775/6572]
+
+INFO 2023-03-05 19:09:51,418 [root:test.py:test_model:76]
+train_loss: 0.83816, num_feeded_data/num_whole_data: [4800/6572]
+
+INFO 2023-03-05 19:09:56,743 [root:test.py:test_model:76]
+train_loss: 0.10710, num_feeded_data/num_whole_data: [4825/6572]
+
+INFO 2023-03-05 19:10:01,793 [root:test.py:test_model:76]
+train_loss: 0.14702, num_feeded_data/num_whole_data: [4850/6572]
+
+INFO 2023-03-05 19:10:07,071 [root:test.py:test_model:76]
+train_loss: 0.07386, num_feeded_data/num_whole_data: [4875/6572]
+
+INFO 2023-03-05 19:10:12,200 [root:test.py:test_model:76]
+train_loss: 1.16056, num_feeded_data/num_whole_data: [4900/6572]
+
+INFO 2023-03-05 19:10:17,006 [root:test.py:test_model:76]
+train_loss: 0.06903, num_feeded_data/num_whole_data: [4925/6572]
+
+INFO 2023-03-05 19:10:22,600 [root:test.py:test_model:76]
+train_loss: 0.80084, num_feeded_data/num_whole_data: [4950/6572]
+
+INFO 2023-03-05 19:10:28,116 [root:test.py:test_model:76]
+train_loss: 0.11661, num_feeded_data/num_whole_data: [4975/6572]
+
+INFO 2023-03-05 19:10:33,442 [root:test.py:test_model:76]
+train_loss: 0.13195, num_feeded_data/num_whole_data: [5000/6572]
+
+INFO 2023-03-05 19:10:40,412 [root:test.py:test_model:76]
+train_loss: 0.08260, num_feeded_data/num_whole_data: [5025/6572]
+
+INFO 2023-03-05 19:10:47,167 [root:test.py:test_model:76]
+train_loss: 0.10203, num_feeded_data/num_whole_data: [5050/6572]
+
+INFO 2023-03-05 19:10:53,234 [root:test.py:test_model:76]
+train_loss: 0.08397, num_feeded_data/num_whole_data: [5075/6572]
+
+INFO 2023-03-05 19:10:58,814 [root:test.py:test_model:76]
+train_loss: 0.11246, num_feeded_data/num_whole_data: [5100/6572]
+
+INFO 2023-03-05 19:11:04,353 [root:test.py:test_model:76]
+train_loss: 0.08223, num_feeded_data/num_whole_data: [5125/6572]
+
+INFO 2023-03-05 19:11:09,974 [root:test.py:test_model:76]
+train_loss: 0.10526, num_feeded_data/num_whole_data: [5150/6572]
+
+INFO 2023-03-05 19:11:15,479 [root:test.py:test_model:76]
+train_loss: 0.93449, num_feeded_data/num_whole_data: [5175/6572]
+
+INFO 2023-03-05 19:11:20,925 [root:test.py:test_model:76]
+train_loss: 0.08458, num_feeded_data/num_whole_data: [5200/6572]
+
+INFO 2023-03-05 19:11:26,657 [root:test.py:test_model:76]
+train_loss: 0.12585, num_feeded_data/num_whole_data: [5225/6572]
+
+INFO 2023-03-05 19:11:32,412 [root:test.py:test_model:76]
+train_loss: 0.07115, num_feeded_data/num_whole_data: [5250/6572]
+
+INFO 2023-03-05 19:11:38,273 [root:test.py:test_model:76]
+train_loss: 0.67538, num_feeded_data/num_whole_data: [5275/6572]
+
+INFO 2023-03-05 19:11:44,543 [root:test.py:test_model:76]
+train_loss: 0.05594, num_feeded_data/num_whole_data: [5300/6572]
+
+INFO 2023-03-05 19:11:50,092 [root:test.py:test_model:76]
+train_loss: 0.12353, num_feeded_data/num_whole_data: [5325/6572]
+
+INFO 2023-03-05 19:11:55,814 [root:test.py:test_model:76]
+train_loss: 0.05770, num_feeded_data/num_whole_data: [5350/6572]
+
+INFO 2023-03-05 19:12:02,504 [root:test.py:test_model:76]
+train_loss: 0.83316, num_feeded_data/num_whole_data: [5375/6572]
+
+INFO 2023-03-05 19:12:09,505 [root:test.py:test_model:76]
+train_loss: 0.63361, num_feeded_data/num_whole_data: [5400/6572]
+
+INFO 2023-03-05 19:12:15,676 [root:test.py:test_model:76]
+train_loss: 0.10986, num_feeded_data/num_whole_data: [5425/6572]
+
+INFO 2023-03-05 19:12:21,741 [root:test.py:test_model:76]
+train_loss: 0.10539, num_feeded_data/num_whole_data: [5450/6572]
+
+INFO 2023-03-05 19:12:27,750 [root:test.py:test_model:76]
+train_loss: 0.07605, num_feeded_data/num_whole_data: [5475/6572]
+
+INFO 2023-03-05 19:12:34,030 [root:test.py:test_model:76]
+train_loss: 1.01151, num_feeded_data/num_whole_data: [5500/6572]
+
+INFO 2023-03-05 19:12:40,380 [root:test.py:test_model:76]
+train_loss: 0.09923, num_feeded_data/num_whole_data: [5525/6572]
+
+INFO 2023-03-05 19:12:46,498 [root:test.py:test_model:76]
+train_loss: 0.10683, num_feeded_data/num_whole_data: [5550/6572]
+
+INFO 2023-03-05 19:12:51,951 [root:test.py:test_model:76]
+train_loss: 0.07481, num_feeded_data/num_whole_data: [5575/6572]
+
+INFO 2023-03-05 19:12:57,890 [root:test.py:test_model:76]
+train_loss: 0.06425, num_feeded_data/num_whole_data: [5600/6572]
+
+INFO 2023-03-05 19:13:04,163 [root:test.py:test_model:76]
+train_loss: 0.88825, num_feeded_data/num_whole_data: [5625/6572]
+
+INFO 2023-03-05 19:13:10,648 [root:test.py:test_model:76]
+train_loss: 1.12544, num_feeded_data/num_whole_data: [5650/6572]
+
+INFO 2023-03-05 19:13:16,653 [root:test.py:test_model:76]
+train_loss: 0.14120, num_feeded_data/num_whole_data: [5675/6572]
+
+INFO 2023-03-05 19:13:22,660 [root:test.py:test_model:76]
+train_loss: 0.10037, num_feeded_data/num_whole_data: [5700/6572]
+
+INFO 2023-03-05 19:13:28,368 [root:test.py:test_model:76]
+train_loss: 0.83533, num_feeded_data/num_whole_data: [5725/6572]
+
+INFO 2023-03-05 19:13:34,046 [root:test.py:test_model:76]
+train_loss: 0.75077, num_feeded_data/num_whole_data: [5750/6572]
+
+INFO 2023-03-05 19:13:39,441 [root:test.py:test_model:76]
+train_loss: 1.18266, num_feeded_data/num_whole_data: [5775/6572]
+
+INFO 2023-03-05 19:13:45,092 [root:test.py:test_model:76]
+train_loss: 0.08491, num_feeded_data/num_whole_data: [5800/6572]
+
+INFO 2023-03-05 19:13:50,825 [root:test.py:test_model:76]
+train_loss: 0.08230, num_feeded_data/num_whole_data: [5825/6572]
+
+INFO 2023-03-05 19:13:56,309 [root:test.py:test_model:76]
+train_loss: 0.94579, num_feeded_data/num_whole_data: [5850/6572]
+
+INFO 2023-03-05 19:14:01,760 [root:test.py:test_model:76]
+train_loss: 0.11943, num_feeded_data/num_whole_data: [5875/6572]
+
+INFO 2023-03-05 19:14:07,570 [root:test.py:test_model:76]
+train_loss: 0.83403, num_feeded_data/num_whole_data: [5900/6572]
+
+INFO 2023-03-05 19:14:13,155 [root:test.py:test_model:76]
+train_loss: 0.85089, num_feeded_data/num_whole_data: [5925/6572]
+
+INFO 2023-03-05 19:14:18,965 [root:test.py:test_model:76]
+train_loss: 0.89049, num_feeded_data/num_whole_data: [5950/6572]
+
+INFO 2023-03-05 19:14:24,345 [root:test.py:test_model:76]
+train_loss: 0.09975, num_feeded_data/num_whole_data: [5975/6572]
+
+INFO 2023-03-05 19:14:30,008 [root:test.py:test_model:76]
+train_loss: 0.11253, num_feeded_data/num_whole_data: [6000/6572]
+
+INFO 2023-03-05 19:14:35,515 [root:test.py:test_model:76]
+train_loss: 0.11044, num_feeded_data/num_whole_data: [6025/6572]
+
+INFO 2023-03-05 19:14:41,137 [root:test.py:test_model:76]
+train_loss: 0.55700, num_feeded_data/num_whole_data: [6050/6572]
+
+INFO 2023-03-05 19:14:46,461 [root:test.py:test_model:76]
+train_loss: 0.89090, num_feeded_data/num_whole_data: [6075/6572]
+
+INFO 2023-03-05 19:14:51,863 [root:test.py:test_model:76]
+train_loss: 0.08349, num_feeded_data/num_whole_data: [6100/6572]
+
+INFO 2023-03-05 19:14:57,213 [root:test.py:test_model:76]
+train_loss: 0.09613, num_feeded_data/num_whole_data: [6125/6572]
+
+INFO 2023-03-05 19:15:03,121 [root:test.py:test_model:76]
+train_loss: 0.68091, num_feeded_data/num_whole_data: [6150/6572]
+
+INFO 2023-03-05 19:15:08,842 [root:test.py:test_model:76]
+train_loss: 0.10272, num_feeded_data/num_whole_data: [6175/6572]
+
+INFO 2023-03-05 19:15:14,324 [root:test.py:test_model:76]
+train_loss: 0.11827, num_feeded_data/num_whole_data: [6200/6572]
+
+INFO 2023-03-05 19:15:20,419 [root:test.py:test_model:76]
+train_loss: 0.07475, num_feeded_data/num_whole_data: [6225/6572]
+
+INFO 2023-03-05 19:15:26,583 [root:test.py:test_model:76]
+train_loss: 0.07208, num_feeded_data/num_whole_data: [6250/6572]
+
+INFO 2023-03-05 19:15:32,955 [root:test.py:test_model:76]
+train_loss: 0.06138, num_feeded_data/num_whole_data: [6275/6572]
+
+INFO 2023-03-05 19:15:39,984 [root:test.py:test_model:76]
+train_loss: 0.08908, num_feeded_data/num_whole_data: [6300/6572]
+
+INFO 2023-03-05 19:15:46,497 [root:test.py:test_model:76]
+train_loss: 0.08596, num_feeded_data/num_whole_data: [6325/6572]
+
+INFO 2023-03-05 19:15:53,271 [root:test.py:test_model:76]
+train_loss: 0.15433, num_feeded_data/num_whole_data: [6350/6572]
+
+INFO 2023-03-05 19:15:58,877 [root:test.py:test_model:76]
+train_loss: 0.08084, num_feeded_data/num_whole_data: [6375/6572]
+
+INFO 2023-03-05 19:16:04,793 [root:test.py:test_model:76]
+train_loss: 0.84901, num_feeded_data/num_whole_data: [6400/6572]
+
+INFO 2023-03-05 19:16:11,432 [root:test.py:test_model:76]
+train_loss: 0.09467, num_feeded_data/num_whole_data: [6425/6572]
+
+INFO 2023-03-05 19:16:17,520 [root:test.py:test_model:76]
+train_loss: 0.07456, num_feeded_data/num_whole_data: [6450/6572]
+
+INFO 2023-03-05 19:16:23,097 [root:test.py:test_model:76]
+train_loss: 0.06681, num_feeded_data/num_whole_data: [6475/6572]
+
+INFO 2023-03-05 19:16:28,404 [root:test.py:test_model:76]
+train_loss: 0.07740, num_feeded_data/num_whole_data: [6500/6572]
+
+INFO 2023-03-05 19:16:33,675 [root:test.py:test_model:76]
+train_loss: 0.78265, num_feeded_data/num_whole_data: [6525/6572]
+
+INFO 2023-03-05 19:16:39,627 [root:test.py:test_model:76]
+train_loss: 1.07198, num_feeded_data/num_whole_data: [6550/6572]
+
+INFO 2023-03-05 22:14:44,228 [root:train.py:train_model:66]
+Epoch 1
+-------------------------------
+
+INFO 2023-03-05 22:14:56,688 [root:train.py:train_model:89]
+train_loss: 0.30376, num_feeded_data/num_whole_data: [0/6572]
+
+INFO 2023-03-05 22:20:37,363 [root:train.py:train_model:89]
+train_loss: 0.00434, num_feeded_data/num_whole_data: [800/6572]
+
+INFO 2023-03-05 22:26:00,807 [root:train.py:train_model:89]
+train_loss: 0.00185, num_feeded_data/num_whole_data: [1600/6572]
+
+INFO 2023-03-05 22:31:26,155 [root:train.py:train_model:89]
+train_loss: 0.00249, num_feeded_data/num_whole_data: [2400/6572]
+
+INFO 2023-03-05 22:37:02,593 [root:train.py:train_model:89]
+train_loss: 0.00165, num_feeded_data/num_whole_data: [3200/6572]
+
+INFO 2023-03-05 22:42:43,961 [root:train.py:train_model:89]
+train_loss: 0.00131, num_feeded_data/num_whole_data: [4000/6572]
+
+INFO 2023-03-05 22:48:18,408 [root:train.py:train_model:89]
+train_loss: 0.00048, num_feeded_data/num_whole_data: [4800/6572]
+
+INFO 2023-03-05 22:53:58,678 [root:train.py:train_model:89]
+train_loss: 0.00092, num_feeded_data/num_whole_data: [5600/6572]
+
+INFO 2023-03-05 23:00:00,806 [root:train.py:train_model:89]
+train_loss: 0.00083, num_feeded_data/num_whole_data: [6400/6572]
+
+INFO 2023-03-05 23:01:06,944 [root:train.py:train_model:140]
+validation_loss: 0.00565, num_feeded_data/num_whole_data: [0/1232]
+
+INFO 2023-03-05 23:02:56,863 [root:train.py:train_model:140]
+validation_loss: 0.01891, num_feeded_data/num_whole_data: [800/1232]
+
+INFO 2023-03-05 23:03:56,659 [root:train.py:train_model:256]
+Training is Done
+
+INFO 2023-03-05 23:41:20,720 [root:test.py:test_model:75]
+test_loss: 0.00004, num_feeded_data/num_whole_data: [0/412]
+
+INFO 2023-03-05 23:41:23,736 [root:test.py:test_model:75]
+test_loss: 0.00020, num_feeded_data/num_whole_data: [25/412]
+
+INFO 2023-03-05 23:41:26,693 [root:test.py:test_model:75]
+test_loss: 0.00075, num_feeded_data/num_whole_data: [50/412]
+
+INFO 2023-03-05 23:41:29,803 [root:test.py:test_model:75]
+test_loss: 0.00253, num_feeded_data/num_whole_data: [75/412]
+
+INFO 2023-03-05 23:41:33,254 [root:test.py:test_model:75]
+test_loss: 0.00395, num_feeded_data/num_whole_data: [100/412]
+
+INFO 2023-03-05 23:41:36,952 [root:test.py:test_model:75]
+test_loss: 0.09101, num_feeded_data/num_whole_data: [125/412]
+
+INFO 2023-03-05 23:41:40,601 [root:test.py:test_model:75]
+test_loss: 0.00296, num_feeded_data/num_whole_data: [150/412]
+
+INFO 2023-03-05 23:41:44,010 [root:test.py:test_model:75]
+test_loss: 0.00001, num_feeded_data/num_whole_data: [175/412]
+
+INFO 2023-03-05 23:41:47,600 [root:test.py:test_model:75]
+test_loss: 0.06907, num_feeded_data/num_whole_data: [200/412]
+
+INFO 2023-03-05 23:41:51,614 [root:test.py:test_model:75]
+test_loss: 0.00003, num_feeded_data/num_whole_data: [225/412]
+
+INFO 2023-03-05 23:41:56,152 [root:test.py:test_model:75]
+test_loss: 0.00029, num_feeded_data/num_whole_data: [250/412]
+
+INFO 2023-03-05 23:41:59,902 [root:test.py:test_model:75]
+test_loss: 0.00225, num_feeded_data/num_whole_data: [275/412]
+
+INFO 2023-03-05 23:42:03,771 [root:test.py:test_model:75]
+test_loss: 0.00404, num_feeded_data/num_whole_data: [300/412]
+
+INFO 2023-03-05 23:42:07,467 [root:test.py:test_model:75]
+test_loss: 0.04112, num_feeded_data/num_whole_data: [325/412]
+
+INFO 2023-03-05 23:42:11,368 [root:test.py:test_model:75]
+test_loss: 0.05501, num_feeded_data/num_whole_data: [350/412]
+
+INFO 2023-03-05 23:42:15,412 [root:test.py:test_model:75]
+test_loss: 0.00560, num_feeded_data/num_whole_data: [375/412]
+
+INFO 2023-03-05 23:42:19,446 [root:test.py:test_model:75]
+test_loss: 0.00165, num_feeded_data/num_whole_data: [400/412]
+
+INFO 2023-03-05 23:42:21,684 [root:test.py:test_model:111]
+Testing is Done
+
+INFO 2023-03-06 00:12:58,929 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [0/606]
+
+INFO 2023-03-06 00:13:02,121 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [25/606]
+
+INFO 2023-03-06 00:13:05,450 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [50/606]
+
+INFO 2023-03-06 00:13:08,761 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [75/606]
+
+INFO 2023-03-06 00:13:12,253 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [100/606]
+
+INFO 2023-03-06 00:13:15,738 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [125/606]
+
+INFO 2023-03-06 00:13:19,337 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [150/606]
+
+INFO 2023-03-06 00:13:22,848 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [175/606]
+
+INFO 2023-03-06 00:13:26,543 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [200/606]
+
+INFO 2023-03-06 00:13:30,603 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [225/606]
+
+INFO 2023-03-06 00:13:34,804 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [250/606]
+
+INFO 2023-03-06 00:13:38,706 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [275/606]
+
+INFO 2023-03-06 00:13:42,552 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [300/606]
+
+INFO 2023-03-06 00:13:46,458 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [325/606]
+
+INFO 2023-03-06 00:13:50,371 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [350/606]
+
+INFO 2023-03-06 00:13:54,201 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [375/606]
+
+INFO 2023-03-06 00:13:58,117 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [400/606]
+
+INFO 2023-03-06 00:14:01,941 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [425/606]
+
+INFO 2023-03-06 00:14:05,851 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [450/606]
+
+INFO 2023-03-06 00:14:09,708 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [475/606]
+
+INFO 2023-03-06 00:14:13,791 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [500/606]
+
+INFO 2023-03-06 00:14:17,567 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [525/606]
+
+INFO 2023-03-06 00:14:21,505 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [550/606]
+
+INFO 2023-03-06 00:14:25,435 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [575/606]
+
+INFO 2023-03-06 00:14:29,395 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [600/606]
+
+INFO 2023-03-06 00:17:27,905 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [0/605]
+
+INFO 2023-03-06 00:17:31,016 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [25/605]
+
+INFO 2023-03-06 00:17:34,370 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [50/605]
+
+INFO 2023-03-06 00:17:37,838 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [75/605]
+
+INFO 2023-03-06 00:17:41,384 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [100/605]
+
+INFO 2023-03-06 00:17:45,004 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [125/605]
+
+INFO 2023-03-06 00:17:48,710 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [150/605]
+
+INFO 2023-03-06 00:17:52,403 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [175/605]
+
+INFO 2023-03-06 00:17:56,168 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [200/605]
+
+INFO 2023-03-06 00:17:59,902 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [225/605]
+
+INFO 2023-03-06 00:18:03,834 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [250/605]
+
+INFO 2023-03-06 00:18:07,612 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [275/605]
+
+INFO 2023-03-06 00:18:11,547 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [300/605]
+
+INFO 2023-03-06 00:18:15,366 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [325/605]
+
+INFO 2023-03-06 00:18:19,591 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [350/605]
+
+INFO 2023-03-06 00:18:23,895 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [375/605]
+
+INFO 2023-03-06 00:18:28,299 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [400/605]
+
+INFO 2023-03-06 00:18:32,823 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [425/605]
+
+INFO 2023-03-06 00:18:37,856 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [450/605]
+
+INFO 2023-03-06 00:18:42,453 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [475/605]
+
+INFO 2023-03-06 00:18:46,897 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [500/605]
+
+INFO 2023-03-06 00:18:51,169 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [525/605]
+
+INFO 2023-03-06 00:18:55,756 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [550/605]
+
+INFO 2023-03-06 00:19:00,029 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [575/605]
+
+INFO 2023-03-06 00:19:04,353 [root:predict.py:predict_model:68]
+num_feeded_data/num_whole_data: [600/605]
+
+INFO 2023-03-06 00:19:05,848 [root:predict.py:predict_model:102]
+Prediction is Done
+
+INFO 2023-03-06 00:21:20,041 [root:train.py:train_model:66]
+Epoch 1
+-------------------------------
+
+INFO 2023-03-06 00:21:34,189 [root:train.py:train_model:89]
+train_loss: 0.31872, num_feeded_data/num_whole_data: [0/6572]
+
+INFO 2023-03-06 00:28:13,473 [root:train.py:train_model:89]
+train_loss: 0.03076, num_feeded_data/num_whole_data: [800/6572]
+
+INFO 2023-03-06 00:35:07,086 [root:train.py:train_model:89]
+train_loss: 0.01119, num_feeded_data/num_whole_data: [1600/6572]
+
+INFO 2023-03-06 00:41:36,267 [root:train.py:train_model:89]
+train_loss: 0.00980, num_feeded_data/num_whole_data: [2400/6572]
+
+INFO 2023-03-06 00:48:16,968 [root:train.py:train_model:89]
+train_loss: 0.00794, num_feeded_data/num_whole_data: [3200/6572]
+
+INFO 2023-03-06 00:54:41,097 [root:train.py:train_model:89]
+train_loss: 0.00089, num_feeded_data/num_whole_data: [4000/6572]
+
+INFO 2023-03-06 01:01:18,386 [root:train.py:train_model:89]
+train_loss: 0.00051, num_feeded_data/num_whole_data: [4800/6572]
+
+INFO 2023-03-06 01:07:55,594 [root:train.py:train_model:89]
+train_loss: 0.00061, num_feeded_data/num_whole_data: [5600/6572]
+
+INFO 2023-03-06 01:14:07,528 [root:train.py:train_model:89]
+train_loss: 0.00555, num_feeded_data/num_whole_data: [6400/6572]
+
+INFO 2023-03-06 01:15:19,645 [root:train.py:train_model:140]
+validation_loss: 0.00031, num_feeded_data/num_whole_data: [0/1232]
+
+INFO 2023-03-06 01:17:27,493 [root:train.py:train_model:140]
+validation_loss: 0.00061, num_feeded_data/num_whole_data: [800/1232]
+
+INFO 2023-03-06 01:18:34,248 [root:train.py:train_model:256]
+Training is Done
+
+INFO 2023-03-06 01:28:47,299 [root:test.py:test_model:75]
+test_loss: 0.00050, num_feeded_data/num_whole_data: [0/412]
+
+INFO 2023-03-06 01:28:50,638 [root:test.py:test_model:75]
+test_loss: 0.00013, num_feeded_data/num_whole_data: [25/412]
+
+INFO 2023-03-06 01:28:54,494 [root:test.py:test_model:75]
+test_loss: 0.00141, num_feeded_data/num_whole_data: [50/412]
+
+INFO 2023-03-06 01:28:58,170 [root:test.py:test_model:75]
+test_loss: 0.00050, num_feeded_data/num_whole_data: [75/412]
+
+INFO 2023-03-06 01:29:01,957 [root:test.py:test_model:75]
+test_loss: 0.00020, num_feeded_data/num_whole_data: [100/412]
+
+INFO 2023-03-06 01:29:05,605 [root:test.py:test_model:75]
+test_loss: 0.00011, num_feeded_data/num_whole_data: [125/412]
+
+INFO 2023-03-06 01:29:09,520 [root:test.py:test_model:75]
+test_loss: 0.00028, num_feeded_data/num_whole_data: [150/412]
+
+INFO 2023-03-06 01:29:13,489 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [175/412]
+
+INFO 2023-03-06 01:29:17,474 [root:test.py:test_model:75]
+test_loss: 0.00031, num_feeded_data/num_whole_data: [200/412]
+
+INFO 2023-03-06 01:29:21,498 [root:test.py:test_model:75]
+test_loss: 0.00068, num_feeded_data/num_whole_data: [225/412]
+
+INFO 2023-03-06 01:29:25,397 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [250/412]
+
+INFO 2023-03-06 01:29:29,239 [root:test.py:test_model:75]
+test_loss: 0.00168, num_feeded_data/num_whole_data: [275/412]
+
+INFO 2023-03-06 01:29:33,055 [root:test.py:test_model:75]
+test_loss: 0.00019, num_feeded_data/num_whole_data: [300/412]
+
+INFO 2023-03-06 01:29:36,885 [root:test.py:test_model:75]
+test_loss: 0.00015, num_feeded_data/num_whole_data: [325/412]
+
+INFO 2023-03-06 01:29:40,792 [root:test.py:test_model:75]
+test_loss: 0.00039, num_feeded_data/num_whole_data: [350/412]
+
+INFO 2023-03-06 01:29:44,676 [root:test.py:test_model:75]
+test_loss: 0.00029, num_feeded_data/num_whole_data: [375/412]
+
+INFO 2023-03-06 01:29:48,633 [root:test.py:test_model:75]
+test_loss: 0.00003, num_feeded_data/num_whole_data: [400/412]
+
+INFO 2023-03-06 01:29:51,043 [root:test.py:test_model:111]
+Testing is Done
+
+INFO 2023-03-06 01:56:19,916 [root:train.py:train_model:66]
+Epoch 1
+-------------------------------
+
+INFO 2023-03-06 01:56:33,045 [root:train.py:train_model:89]
+train_loss: 0.31548, num_feeded_data/num_whole_data: [0/6572]
+
+INFO 2023-03-06 02:03:06,198 [root:train.py:train_model:89]
+train_loss: 0.01517, num_feeded_data/num_whole_data: [800/6572]
+
+INFO 2023-03-06 02:09:44,158 [root:train.py:train_model:89]
+train_loss: 0.00259, num_feeded_data/num_whole_data: [1600/6572]
+
+INFO 2023-03-06 02:16:18,443 [root:train.py:train_model:89]
+train_loss: 0.00306, num_feeded_data/num_whole_data: [2400/6572]
+
+INFO 2023-03-06 02:22:51,536 [root:train.py:train_model:89]
+train_loss: 0.00640, num_feeded_data/num_whole_data: [3200/6572]
+
+INFO 2023-03-06 02:29:25,390 [root:train.py:train_model:89]
+train_loss: 0.00089, num_feeded_data/num_whole_data: [4000/6572]
+
+INFO 2023-03-06 02:36:00,486 [root:train.py:train_model:89]
+train_loss: 0.00416, num_feeded_data/num_whole_data: [4800/6572]
+
+INFO 2023-03-06 02:42:34,137 [root:train.py:train_model:89]
+train_loss: 0.00143, num_feeded_data/num_whole_data: [5600/6572]
+
+INFO 2023-03-06 02:49:10,020 [root:train.py:train_model:89]
+train_loss: 0.00106, num_feeded_data/num_whole_data: [6400/6572]
+
+INFO 2023-03-06 02:50:25,041 [root:train.py:train_model:140]
+validation_loss: 0.00036, num_feeded_data/num_whole_data: [0/1232]
+
+INFO 2023-03-06 02:52:34,916 [root:train.py:train_model:140]
+validation_loss: 0.00021, num_feeded_data/num_whole_data: [800/1232]
+
+INFO 2023-03-06 02:53:41,210 [root:train.py:train_model:256]
+Training is Done
+
+INFO 2023-03-06 03:01:27,828 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [0/412]
+
+INFO 2023-03-06 03:01:31,840 [root:test.py:test_model:75]
+test_loss: 0.00005, num_feeded_data/num_whole_data: [25/412]
+
+INFO 2023-03-06 03:01:36,000 [root:test.py:test_model:75]
+test_loss: 0.00008, num_feeded_data/num_whole_data: [50/412]
+
+INFO 2023-03-06 03:01:40,281 [root:test.py:test_model:75]
+test_loss: 0.00008, num_feeded_data/num_whole_data: [75/412]
+
+INFO 2023-03-06 03:01:44,742 [root:test.py:test_model:75]
+test_loss: 0.00017, num_feeded_data/num_whole_data: [100/412]
+
+INFO 2023-03-06 03:01:49,189 [root:test.py:test_model:75]
+test_loss: 0.00009, num_feeded_data/num_whole_data: [125/412]
+
+INFO 2023-03-06 03:01:53,789 [root:test.py:test_model:75]
+test_loss: 0.00035, num_feeded_data/num_whole_data: [150/412]
+
+INFO 2023-03-06 03:01:58,353 [root:test.py:test_model:75]
+test_loss: 0.00012, num_feeded_data/num_whole_data: [175/412]
+
+INFO 2023-03-06 03:02:03,012 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [200/412]
+
+INFO 2023-03-06 03:02:07,674 [root:test.py:test_model:75]
+test_loss: 0.00016, num_feeded_data/num_whole_data: [225/412]
+
+INFO 2023-03-06 03:02:12,351 [root:test.py:test_model:75]
+test_loss: 0.00008, num_feeded_data/num_whole_data: [250/412]
+
+INFO 2023-03-06 03:02:17,090 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [275/412]
+
+INFO 2023-03-06 03:02:21,867 [root:test.py:test_model:75]
+test_loss: 0.00012, num_feeded_data/num_whole_data: [300/412]
+
+INFO 2023-03-06 03:02:26,556 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [325/412]
+
+INFO 2023-03-06 03:02:31,336 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [350/412]
+
+INFO 2023-03-06 03:02:36,061 [root:test.py:test_model:75]
+test_loss: 0.00094, num_feeded_data/num_whole_data: [375/412]
+
+INFO 2023-03-06 03:02:40,879 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [400/412]
+
+INFO 2023-03-06 03:02:43,909 [root:test.py:test_model:111]
+Testing is Done
+
+INFO 2023-03-14 10:56:16,302 [root:train.py:train_model:66]
+Epoch 1
+-------------------------------
+
+INFO 2023-03-14 10:56:52,574 [root:train.py:train_model:89]
+train_loss: 0.31872, num_feeded_data/num_whole_data: [0/6572]
+
+INFO 2023-03-14 11:11:01,496 [root:train.py:train_model:89]
+train_loss: 0.03076, num_feeded_data/num_whole_data: [800/6572]
+
+INFO 2023-03-14 11:22:56,190 [root:train.py:train_model:89]
+train_loss: 0.01119, num_feeded_data/num_whole_data: [1600/6572]
+
+INFO 2023-03-14 11:35:53,454 [root:train.py:train_model:89]
+train_loss: 0.00980, num_feeded_data/num_whole_data: [2400/6572]
+
+INFO 2023-03-14 11:48:24,263 [root:train.py:train_model:89]
+train_loss: 0.00794, num_feeded_data/num_whole_data: [3200/6572]
+
+INFO 2023-03-14 11:57:04,663 [root:train.py:train_model:89]
+train_loss: 0.00089, num_feeded_data/num_whole_data: [4000/6572]
+
+INFO 2023-03-14 12:05:09,241 [root:train.py:train_model:89]
+train_loss: 0.00051, num_feeded_data/num_whole_data: [4800/6572]
+
+INFO 2023-03-14 12:12:54,022 [root:train.py:train_model:89]
+train_loss: 0.00061, num_feeded_data/num_whole_data: [5600/6572]
+
+INFO 2023-03-14 12:20:38,185 [root:train.py:train_model:89]
+train_loss: 0.00555, num_feeded_data/num_whole_data: [6400/6572]
+
+INFO 2023-03-14 12:22:07,175 [root:train.py:train_model:140]
+validation_loss: 0.00031, num_feeded_data/num_whole_data: [0/1232]
+
+INFO 2023-03-14 12:24:43,759 [root:train.py:train_model:140]
+validation_loss: 0.00061, num_feeded_data/num_whole_data: [800/1232]
+
+INFO 2023-03-14 12:26:04,420 [root:train.py:train_model:256]
+Training is Done
+
+INFO 2023-03-14 13:45:33,641 [root:train.py:train_model:66]
+Epoch 1
+-------------------------------
+
+INFO 2023-03-14 13:45:53,188 [root:train.py:train_model:89]
+train_loss: 0.31548, num_feeded_data/num_whole_data: [0/6572]
+
+INFO 2023-03-14 13:53:51,255 [root:train.py:train_model:89]
+train_loss: 0.01517, num_feeded_data/num_whole_data: [800/6572]
+
+INFO 2023-03-14 14:02:05,225 [root:train.py:train_model:89]
+train_loss: 0.00259, num_feeded_data/num_whole_data: [1600/6572]
+
+INFO 2023-03-14 14:10:20,503 [root:train.py:train_model:89]
+train_loss: 0.00306, num_feeded_data/num_whole_data: [2400/6572]
+
+INFO 2023-03-14 14:18:40,295 [root:train.py:train_model:89]
+train_loss: 0.00640, num_feeded_data/num_whole_data: [3200/6572]
+
+INFO 2023-03-14 14:27:44,581 [root:train.py:train_model:89]
+train_loss: 0.00089, num_feeded_data/num_whole_data: [4000/6572]
+
+INFO 2023-03-14 14:36:47,776 [root:train.py:train_model:89]
+train_loss: 0.00416, num_feeded_data/num_whole_data: [4800/6572]
+
+INFO 2023-03-14 14:45:07,300 [root:train.py:train_model:89]
+train_loss: 0.00143, num_feeded_data/num_whole_data: [5600/6572]
+
+INFO 2023-03-14 14:53:14,492 [root:train.py:train_model:89]
+train_loss: 0.00106, num_feeded_data/num_whole_data: [6400/6572]
+
+INFO 2023-03-14 14:54:46,362 [root:train.py:train_model:140]
+validation_loss: 0.00036, num_feeded_data/num_whole_data: [0/1232]
+
+INFO 2023-03-14 14:57:26,112 [root:train.py:train_model:140]
+validation_loss: 0.00021, num_feeded_data/num_whole_data: [800/1232]
+
+INFO 2023-03-14 14:58:53,181 [root:train.py:train_model:256]
+Training is Done
+
+INFO 2023-03-14 16:20:10,378 [root:train.py:train_model:66]
+Epoch 1
+-------------------------------
+
+INFO 2023-03-14 16:20:26,568 [root:train.py:train_model:89]
+train_loss: 0.30376, num_feeded_data/num_whole_data: [0/6572]
+
+INFO 2023-03-14 16:27:26,099 [root:train.py:train_model:89]
+train_loss: 0.00434, num_feeded_data/num_whole_data: [800/6572]
+
+INFO 2023-03-14 16:34:32,992 [root:train.py:train_model:89]
+train_loss: 0.00185, num_feeded_data/num_whole_data: [1600/6572]
+
+INFO 2023-03-14 16:41:46,650 [root:train.py:train_model:89]
+train_loss: 0.00249, num_feeded_data/num_whole_data: [2400/6572]
+
+INFO 2023-03-14 16:49:19,063 [root:train.py:train_model:89]
+train_loss: 0.00165, num_feeded_data/num_whole_data: [3200/6572]
+
+INFO 2023-03-14 16:56:11,212 [root:train.py:train_model:89]
+train_loss: 0.00131, num_feeded_data/num_whole_data: [4000/6572]
+
+INFO 2023-03-14 17:02:53,348 [root:train.py:train_model:89]
+train_loss: 0.00048, num_feeded_data/num_whole_data: [4800/6572]
+
+INFO 2023-03-14 17:09:36,709 [root:train.py:train_model:89]
+train_loss: 0.00092, num_feeded_data/num_whole_data: [5600/6572]
+
+INFO 2023-03-14 17:16:19,548 [root:train.py:train_model:89]
+train_loss: 0.00083, num_feeded_data/num_whole_data: [6400/6572]
+
+INFO 2023-03-14 17:17:35,324 [root:train.py:train_model:140]
+validation_loss: 0.00565, num_feeded_data/num_whole_data: [0/1232]
+
+INFO 2023-03-14 17:19:41,196 [root:train.py:train_model:140]
+validation_loss: 0.01891, num_feeded_data/num_whole_data: [800/1232]
+
+INFO 2023-03-14 17:20:45,821 [root:train.py:train_model:256]
+Training is Done
+
+INFO 2023-03-15 11:07:23,070 [root:test.py:test_model:75]
+test_loss: 0.00099, num_feeded_data/num_whole_data: [0/412]
+
+INFO 2023-03-15 11:07:27,334 [root:test.py:test_model:75]
+test_loss: 0.00425, num_feeded_data/num_whole_data: [25/412]
+
+INFO 2023-03-15 11:07:31,059 [root:test.py:test_model:75]
+test_loss: 0.00001, num_feeded_data/num_whole_data: [50/412]
+
+INFO 2023-03-15 11:07:36,263 [root:test.py:test_model:75]
+test_loss: 0.00135, num_feeded_data/num_whole_data: [75/412]
+
+INFO 2023-03-15 11:07:41,375 [root:test.py:test_model:75]
+test_loss: 0.01657, num_feeded_data/num_whole_data: [100/412]
+
+INFO 2023-03-15 11:07:47,019 [root:test.py:test_model:75]
+test_loss: 0.00141, num_feeded_data/num_whole_data: [125/412]
+
+INFO 2023-03-15 11:07:52,014 [root:test.py:test_model:75]
+test_loss: 0.00067, num_feeded_data/num_whole_data: [150/412]
+
+INFO 2023-03-15 11:07:57,245 [root:test.py:test_model:75]
+test_loss: 0.00869, num_feeded_data/num_whole_data: [175/412]
+
+INFO 2023-03-15 11:08:02,460 [root:test.py:test_model:75]
+test_loss: 0.02277, num_feeded_data/num_whole_data: [200/412]
+
+INFO 2023-03-15 11:08:07,902 [root:test.py:test_model:75]
+test_loss: 0.00075, num_feeded_data/num_whole_data: [225/412]
+
+INFO 2023-03-15 11:08:12,894 [root:test.py:test_model:75]
+test_loss: 0.00568, num_feeded_data/num_whole_data: [250/412]
+
+INFO 2023-03-15 11:08:18,329 [root:test.py:test_model:75]
+test_loss: 0.02890, num_feeded_data/num_whole_data: [275/412]
+
+INFO 2023-03-15 11:08:23,671 [root:test.py:test_model:75]
+test_loss: 0.00001, num_feeded_data/num_whole_data: [300/412]
+
+INFO 2023-03-15 11:08:28,876 [root:test.py:test_model:75]
+test_loss: 0.02587, num_feeded_data/num_whole_data: [325/412]
+
+INFO 2023-03-15 11:08:33,859 [root:test.py:test_model:75]
+test_loss: 0.02819, num_feeded_data/num_whole_data: [350/412]
+
+INFO 2023-03-15 11:08:38,784 [root:test.py:test_model:75]
+test_loss: 0.02421, num_feeded_data/num_whole_data: [375/412]
+
+INFO 2023-03-15 11:08:43,913 [root:test.py:test_model:75]
+test_loss: 0.01465, num_feeded_data/num_whole_data: [400/412]
+
+INFO 2023-03-15 11:08:47,563 [root:test.py:test_model:111]
+Testing is Done
+
+INFO 2023-03-15 11:17:03,123 [root:test.py:test_model:75]
+test_loss: 0.00085, num_feeded_data/num_whole_data: [0/412]
+
+INFO 2023-03-15 11:17:07,685 [root:test.py:test_model:75]
+test_loss: 0.00013, num_feeded_data/num_whole_data: [25/412]
+
+INFO 2023-03-15 11:17:12,156 [root:test.py:test_model:75]
+test_loss: 0.00021, num_feeded_data/num_whole_data: [50/412]
+
+INFO 2023-03-15 11:17:17,069 [root:test.py:test_model:75]
+test_loss: 0.00007, num_feeded_data/num_whole_data: [75/412]
+
+INFO 2023-03-15 11:17:22,344 [root:test.py:test_model:75]
+test_loss: 0.00094, num_feeded_data/num_whole_data: [100/412]
+
+INFO 2023-03-15 11:17:27,251 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [125/412]
+
+INFO 2023-03-15 11:17:32,598 [root:test.py:test_model:75]
+test_loss: 0.00306, num_feeded_data/num_whole_data: [150/412]
+
+INFO 2023-03-15 11:17:37,459 [root:test.py:test_model:75]
+test_loss: 0.00023, num_feeded_data/num_whole_data: [175/412]
+
+INFO 2023-03-15 11:17:42,760 [root:test.py:test_model:75]
+test_loss: 0.00045, num_feeded_data/num_whole_data: [200/412]
+
+INFO 2023-03-15 11:17:48,285 [root:test.py:test_model:75]
+test_loss: 0.00019, num_feeded_data/num_whole_data: [225/412]
+
+INFO 2023-03-15 11:17:54,160 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [250/412]
+
+INFO 2023-03-15 11:18:00,071 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [275/412]
+
+INFO 2023-03-15 11:18:05,673 [root:test.py:test_model:75]
+test_loss: 0.00005, num_feeded_data/num_whole_data: [300/412]
+
+INFO 2023-03-15 11:18:11,534 [root:test.py:test_model:75]
+test_loss: 0.00014, num_feeded_data/num_whole_data: [325/412]
+
+INFO 2023-03-15 11:18:17,333 [root:test.py:test_model:75]
+test_loss: 0.00147, num_feeded_data/num_whole_data: [350/412]
+
+INFO 2023-03-15 11:18:23,030 [root:test.py:test_model:75]
+test_loss: 0.00063, num_feeded_data/num_whole_data: [375/412]
+
+INFO 2023-03-15 11:18:28,476 [root:test.py:test_model:75]
+test_loss: 0.00001, num_feeded_data/num_whole_data: [400/412]
+
+INFO 2023-03-15 11:18:31,848 [root:test.py:test_model:111]
+Testing is Done
+
+INFO 2023-03-15 11:22:22,997 [root:test.py:test_model:75]
+test_loss: 0.00002, num_feeded_data/num_whole_data: [0/412]
+
+INFO 2023-03-15 11:22:26,640 [root:test.py:test_model:75]
+test_loss: 0.00009, num_feeded_data/num_whole_data: [25/412]
+
+INFO 2023-03-15 11:22:31,640 [root:test.py:test_model:75]
+test_loss: -0.00000, num_feeded_data/num_whole_data: [50/412]
+
+INFO 2023-03-15 11:22:35,998 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [75/412]
+
+INFO 2023-03-15 11:22:40,152 [root:test.py:test_model:75]
+test_loss: 0.00006, num_feeded_data/num_whole_data: [100/412]
+
+INFO 2023-03-15 11:22:44,923 [root:test.py:test_model:75]
+test_loss: 0.00022, num_feeded_data/num_whole_data: [125/412]
+
+INFO 2023-03-15 11:22:49,362 [root:test.py:test_model:75]
+test_loss: 0.00053, num_feeded_data/num_whole_data: [150/412]
+
+INFO 2023-03-15 11:22:53,826 [root:test.py:test_model:75]
+test_loss: 0.00044, num_feeded_data/num_whole_data: [175/412]
+
+INFO 2023-03-15 11:22:58,342 [root:test.py:test_model:75]
+test_loss: 0.00041, num_feeded_data/num_whole_data: [200/412]
+
+INFO 2023-03-15 11:23:02,938 [root:test.py:test_model:75]
+test_loss: 0.00048, num_feeded_data/num_whole_data: [225/412]
+
+INFO 2023-03-15 11:23:07,850 [root:test.py:test_model:75]
+test_loss: 0.00039, num_feeded_data/num_whole_data: [250/412]
+
+INFO 2023-03-15 11:23:13,231 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [275/412]
+
+INFO 2023-03-15 11:23:18,579 [root:test.py:test_model:75]
+test_loss: 0.00025, num_feeded_data/num_whole_data: [300/412]
+
+INFO 2023-03-15 11:23:23,306 [root:test.py:test_model:75]
+test_loss: 0.00000, num_feeded_data/num_whole_data: [325/412]
+
+INFO 2023-03-15 11:23:27,728 [root:test.py:test_model:75]
+test_loss: 0.00005, num_feeded_data/num_whole_data: [350/412]
+
+INFO 2023-03-15 11:23:32,692 [root:test.py:test_model:75]
+test_loss: 0.00082, num_feeded_data/num_whole_data: [375/412]
+
+INFO 2023-03-15 11:23:37,562 [root:test.py:test_model:75]
+test_loss: 0.00031, num_feeded_data/num_whole_data: [400/412]
+
+INFO 2023-03-15 11:23:40,351 [root:test.py:test_model:111]
+Testing is Done
+
