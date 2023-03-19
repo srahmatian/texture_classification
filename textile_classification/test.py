@@ -180,7 +180,7 @@ if __name__ == "__main__":
     if os_name == "Windows":
         tracking_uri = f"file:///{tracking_folder}"
     else:
-        tracking_uri = f"file:/{tracking_folder}"
+        tracking_uri = f"file:{tracking_folder}"
 
     mlflow.set_tracking_uri(tracking_uri)
     # create the experiment to existed one.

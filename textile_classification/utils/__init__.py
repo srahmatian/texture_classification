@@ -4,7 +4,8 @@ from .miscellaneous import (load_from_jason,
                             save_to_pickle,
                             set_seeds,
                             get_default_device,
-                            to_device)
+                            to_device, 
+                            change_artifcat_uri)
 
 from .metric_calculation_visualization import (change_labels_from_one_hot_fromat_to_binary_format, 
                                                change_labels_from_probablity_format_to_deterministic_format,

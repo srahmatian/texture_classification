@@ -108,5 +108,12 @@ def to_device(tensors: List[torch.Tensor],
     """
     assert isinstance(tensors, [list, tuple])
     return [x.to(device) for x in tensors]
+
+def change_artifcat_uri():
+    """
+    This function looks for all the meta.yaml files in mlruns folder, and 
+    adapt the artifacts location based on the new directory of the project.
+    """
+    pass
     
 

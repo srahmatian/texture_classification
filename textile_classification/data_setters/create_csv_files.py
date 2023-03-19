@@ -113,8 +113,11 @@ def change_images_path_in_train_val_test_csv_files(csv_dir: Union[str, Path] = D
         csv_path = Path(csv_dir).joinpath(csv_name)
         df = pd.read_csv(csv_path)
         for idx in range(len(df)):
-            old_path = Path(df.loc[idx, "image_path"])
-            new_path = Path(csv_dir).joinpath(old_path.parent.name, old_path.name)
+            old_path = str(df.loc[idx, "image_path"])
+            data_index = old_path.find(DATA_DIR.name) + len(DATA_DIR.name) + 1
+            sub_path = old_path[data_index:]
+            components = re.split(r'[\\/]', sub_path)
+            new_path = Path(csv_dir).joinpath(components[0], components[1])
             df.loc[idx, "image_path"] = new_path
         df.to_csv(csv_path, index=False)
 

@@ -1,12 +1,12 @@
 # README #
-Using deep learning, we recognize different kind of textiles and classify captured images into valid and invalid groups.
+Using deep learning, different kinds of textiles are recognized, and their images are classified into valid and invalid groups.
 
-A deep learning approach and pytorch has been chosen to build the model.
+A deep learning approach based on pytorch has been chosen to build the model.
 scikit-learn has been used to calculate some classification metrics like accuracy, precision, recall and f1_score.
 It also have been used to plot ROC and precision-recall curves, and also for plotting confusion matrices.
 You can find all those metrics in the mlruns folder. 
 
-Three famous deep models named efficientnet_v2_s, densenet121, resnext50_32x4d were adopted, changed and fine-tuned base on our task.
+Three famous deep models named efficientnet_v2_s, densenet121, resnext50_32x4d were adopted, changed and fine-tuned base on our task. You can download the fined-tuned models from here (https://drive.google.com/drive/folders/1VEi5Mp9H8lVL9RKfE_nLmphLcIjebuTn?usp=share_link), and then put them in this folder (hub/fine_tuned_models).
 
 MLFlow has been chosen to log parameters, metrics, checkpoints, figures during training and testing.
 You can find the logs for each model in the mlruns directory.
@@ -26,14 +26,16 @@ There is a directory named docs, you can find .md files corresponding to each .p
 
 Other kinds of logs like error for monitoring the training will be recorded in a directory named logs, and if something goes wrong you can find it there.
 
-In order to be able of using this package, you need to follow these steps.
+In order to be able of using this package, you need to follow these steps, or 
+pull its docker image (8 GBs) from docker-hub by running this command (docker pull sajadr/textile_classification:latest).
+Run the docker without any input argument (docker run -it <image_name>) to see the tutorial for using the docker.
 
 # Install prerequisites: #
 ## install python3: ##
-* It doesn't matter which version of python you chose as long as it is newer than 3.6 since we will install python 3.9.12 locally using pyenv via makefile
+* It doesn't matter which version of python you chose as long as it is python3 since we will install python 3.9.12 locally using pyenv via makefile
 
 ## install pyenv to set up the correct version of Python: ##
-* For windows operating system, install pyenv-win by reading this link: https://github.com/pyenv-win/pyenv-win
+For windows operating system, install pyenv-win by reading this link: https://github.com/pyenv-win/pyenv-win
 * Or Open PowerShell and run these commands:
 * pip install pyenv-win --target $HOME\\.pyenv
 * [System.Environment]::SetEnvironmentVariable('PYENV',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
@@ -43,7 +45,7 @@ In order to be able of using this package, you need to follow these steps.
 
 
 
-* for linux you need to run following commands on your terminal (https://github.com/pyenv/pyenv):
+For linux you need to run following commands on your terminal (https://github.com/pyenv/pyenv):
 * sudo apt-get update
 * sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
 * git clone https://github.com/pyenv/pyenv.git ~/.pyenv
@@ -88,17 +90,20 @@ run this command to train the model. you can also see its manual before running 
 * python .\textile_classification\train.py --help
 * python .\textile_classification\train.py .\textile_classification\train_input_info.cfg
 
-run this command to evaluate the model when you know the ground truth. you can also see its manual before running it:
+run this command to evaluate the model when you know the ground truth. you can also see its manual before running it.
+just pay attention to change the path of checkpoint in test_input_info.cfg to make it compatible with your system directoies:
 * python .\textile_classification\test.py --help 
 * python .\textile_classification\test.py .\textile_classification\test_input_info.cfg
 
 run this command to do prediction when you don't know the ground truth. you can also see its manual before running it:
+just pay attention to change the pathes in predict_input_info.cfg to make them compatible with your system directoies:
 * python .\textile_classification\predict.py --help
 * python .\textile_classification\predict.py .\textile_classification\predict_input_info.cfg
 
 ## Note: 
 You can find the parameters, metrics and artifacts in mlruns direcory. Run this command on your terminal to see them:
 * mlflow ui
+If you want to see the logs provided by another computer, you need to change the artifact_uri and artifact_location in all meta.yaml files of the mlruns folder before calling the aformentioned command to make them compatilbe with your computer.
 
 you can find already created html files of the documentation in site directory, 
 but if you change the code and you want to create new documentation you can do it temporaray and permanetly by running following commands:

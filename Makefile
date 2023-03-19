@@ -77,5 +77,4 @@ clean:
 	rm -rf ${VENV_DIR}
 	rm -rf *.egg-info/
 	rm -rf .python-version
-	rm -rf .git
 endif

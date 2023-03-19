@@ -2047,3 +2047,15 @@ test_loss: 0.00031, num_feeded_data/num_whole_data: [400/412]
 INFO 2023-03-15 11:23:40,351 [root:test.py:test_model:111]
 Testing is Done
 
+ERROR 2023-03-19 12:49:33,857 [root:test.py:<module>:140]
+File texture_classification\hub\fine_tuned_models\efficientnet_checkpoint.pt does not exist.
+
+INFO 2023-03-19 12:53:51,115 [root:test.py:test_model:75]
+test_loss: 0.00027, num_feeded_data/num_whole_data: [0/412]
+
+INFO 2023-03-19 12:53:54,520 [root:test.py:test_model:75]
+test_loss: 0.00001, num_feeded_data/num_whole_data: [25/412]
+
+INFO 2023-03-19 12:53:58,147 [root:test.py:test_model:75]
+test_loss: 0.00029, num_feeded_data/num_whole_data: [50/412]
+
